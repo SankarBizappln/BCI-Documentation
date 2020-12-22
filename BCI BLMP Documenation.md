@@ -106,7 +106,7 @@
 
 ##### Bid Creation
 
-We can able to create a Bid in the application by providing some basic regarding the bid as shown in *Image 3*. We can start the Bid creation process from *Bids &#129042; Pricing &#129042; Click on Plus Button* as shown in below *Image 5* . Once the button is clicked it will open a form to collect information regarding the bid as shown in Image 6, Once details are filed in and click on *Submit* a bid will be created in the application.
+We can able to create a Bid in the application by providing some basic regarding the bid as shown in *Image 3*. We can start the Bid creation process from *Bids &#129042; Pricing &#129042; Click on Plus Button* as shown in below *Image 5* . Once the button is clicked it will open a form to collect information regarding the bid as shown in Image 6, Once details are filed in and click on *Submit* a bid will be created in the application and redirected to [Bid Pricing](#bid-pricing).
 
 > ***Note:*** 
 > *Before creating a bid in application customers and contacts needed to be created in customers module. If the customer already exist, the existing customer can be reused. We have explained the customer and contact creation in [Customers](#customers) Section.*
@@ -123,7 +123,31 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Bid Pricing
 
+​		Bid pricing is a feature used in the application capture your bidding amount over a project/tender. We can also add estimate of pricing split-up of various expenses which you may have on various resources and services which are going to be offering to the customer as *Buy Amount* and *Sell Amount*. The page shown in *Image 15* will be shown immediately after a bid is created.  You can click on *Add Price Type* button to add a new price type into new or existing bid you have created. Form shown in *Image 16* will be opened to collect the price type, sub type and pricing information. While adding price types to a bid, new price type or sub type can be created from the bid from itself.
 
+![Bid Pricing Page](Images/Bid Pricing Page.png)
+
+*Image 15: Bid Pricing Page*
+
+​		
+
+![Bid Pricing Adding Price Type](Images/Bid Pricing Adding Price Type.png) 
+
+*Image 16: Adding Price Type Bid Pricing.*
+
+​		Once the prices types are added to pricing Bid Pricing Page will looks like as shown in *Image 17*. We enable to option to delete or edit the price type added to the pricing when needed. We have also implemented a approval process for getting permission from user from higher hierarchy. We have discussed the approval process in details under [Bid Approval](#bid-approval) section.
+
+![Bid pricing Added Bid Pricing](Images/Bid pricing Added Bid Pricing.png)
+
+*Image 17: Bid pricing page after adding some price type to the bid.*
+
+
+
+##### Bid Approval
+
+​		In bid approval process once bid pricing is completed, The bid can be sent for approval to based on hierarchy. In BLMP Application we have two hierarchy, Bid Creator and Bid Approver. Users under Bid Creator and Bid Approver both have access to create, edit and delete a price type in bid pricing process. But the Bid Approver have privilege to approve or review the bid pricing submitted by Bid Creator as shown in *Image 18*.
+
+![Bid Pricing Waiting for Approval](Images/Bid Pricing Waiting for Approval.png)
 
 #### Settings
 
