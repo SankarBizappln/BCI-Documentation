@@ -149,6 +149,45 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ![Bid Pricing Waiting for Approval](Images/Bid Pricing Waiting for Approval.png)
 
+*Image 18: Bid Pricing after submitting for approval of Admin Approver*
+
+​		You can notice in the status of *Bid Pricing* is update to *Submitted* from *New*. At this stage users in admin role will not have access to add, modify or delete a price type (i.e., Admin will only have read-only access once submitted for approval). Now users under Admin Approver role will access create, edit or delete access to price types added by Admin user. Apart from this they have privileged to *Approve* a pricing submitted or send it back for *Review* using the *Approve* or *Review* button shown in above *Image 18*.
+
+​		If *Admin Approver* approves the pricing, the bid approval process will be completed and the bid pricing will be locked no more modification in pricing can be done by both the roles.
+
+![Approved Bid](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Approved Bid.png)
+
+*Image 21: Approved pricing and Status updated to Approved*
+
+​		If approver clicks on *Review* button, a window will prompt for *Review Comments* as shown in *Image 19*. Admin approver can adding review view in he rich text field and click on submit, Then status of the pricing will be updated to *Review* and Review Comment added by the approver will be shown to admin as shown in *Image 20*. At this stage pricing details can be revised or additional files can be attached by Admin and resubmit the pricing for approval again.
+
+![Review Comment](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Review Comment.png)
+
+*Image 19: Rich-Text field to get review comment from approver* 
+
+![Review Comment Adding To Bid Page](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Review Comment Adding To Bid Page.png)
+
+*Image 20: Status updated to Review and showing Review Comment added from Admin Approver*
+
+##### Bid to Project Conversion
+
+​		Once a Bid Pricing is approved and win, Bid created can be converted to project directly. You can go to *Bids &#129042; Approved &#129042; Edit* and update the *Stage* of bid to *Win*. Once the bid status is selected the application will show few more field like Project Owner, Employees, Hotel, Warehouse, etc as shown in *Image 21*. Once all those details where given you can click on submit to convert a Bid to a Project. Following are the field description of the project fields.
+
+| Field Name       | Field Description                                            |
+| ---------------- | ------------------------------------------------------------ |
+| Project Owner    | BCI Employee who is going to be point of contact between BCI and Customer. |
+| Employees        | Employees with different roles involved in this project. Only user who needs application access is sufficient. |
+| Hotel            | A Hotel model needed to be created. Will holds the information of building and floor we are going to work on this project |
+| Warehouse        | Warehouses going to be used in this project for storing he furnitures. |
+| No of Rooms      | Number of rooms involved on this project                     |
+| No of Room Types | Number of room types involved in this project.               |
+
+![Bid to Project Conversion](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Bid to Project Conversion.png)
+
+*Image 21: Bid to Project conversion form fields*
+
+> ***FYI:*** *A project can also be created directly by setting the bid stage to **win** directly to avoid the bid approval process.*
+
 #### Settings
 
 ##### Customers
