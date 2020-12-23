@@ -76,7 +76,7 @@
 
 **Customer Portal URL:** *https://bciworldwide.zohocreatorportal.com/*
 
-![Customer Portal Project List](Images/access_this_application/Customer Portal Project List.png)
+![Customer Portal Project List](Images/access_this_application/Customer Portal Project List.png "Customer Portal Project List")
 
 *Image 2: Zoho Creator Customer Protal project list*
 
