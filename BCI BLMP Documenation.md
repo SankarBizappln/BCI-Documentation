@@ -52,7 +52,7 @@
 
 #### Accessing This Application
 
-​		BLMP Application can be accessed by users in two different modes, either as application user or customer portal user. Customer Portal mode will have only access to specific module of the application with read-only access. Customer or Agents are given access to the application via customer portal to check on the progress of project in which they are involved. Regular employee like Project Manager, Project Coordinators and Warehouse Staffs will have access to application as Application User. 
+​		BLMP Application can be accessed by users in two different modes, either as application user or customer portal user. Customer Portal mode will have only access to specific module of the application with read-only access. Customer or Agents are given access to the application via customer portal to check on the progress of project in which they are involved. Regular employee like Project Manager, Project Coordinators and Warehouse Staffs will have access to application as Application User.
 
 ![Zoho Creator Dashboard](Images/access_this_application/Creator_Application_Dashboard.png "Zoho Creator Dashboard")
 
@@ -76,11 +76,10 @@
 
 **Customer Portal URL:** *https://bciworldwide.zohocreatorportal.com/*
 
-![Customer Portal Project List](Images/access_this_application/Customer Portal Project List.png "Customer Portal Project List")
+![Customer Portal Project List](Images/access_this_application/CustomerPortalProjectList.png "Customer Portal Project List")
+*Image 2: Zoho Creator Customer Portal project list*
 
-*Image 2: Zoho Creator Customer Protal project list*
-
-> **Note:** If you added a user to customer portal with email id domain same as app admin Zoho Creator will allow this email as customer portal user. This email can only be added as application user instead. 
+> **Note:** If you added a user to customer portal with email id domain same as app admin Zoho Creator will allow this email as customer portal user. This email can only be added as application user instead.
 >
 > *Example:*
 >
@@ -94,11 +93,11 @@
 
 ​		Bids are feature in BLMP application to maintain details of the Bids BCI is participating. This feature allows to store various details like basic details like Project Name, Customer, Contact, Lead Source and files related receptive bid as shown in *Image 3*. Bid also includes feature adding the project pricing along with a pricing approval process as shown in *Image 4*.
 
-![Bid Page - Bid Info](Images/Bid Page - Bid Info.png)
+![Bid Page - Bid Info](Images/BidPage-BidInfo.png)
 
 *Image 3: Bid Info page*
 
-![Sample Project Pricing Page](Images/Sample Project Pricing Page.png)
+![Sample Project Pricing Page](Images/SampleProjectPricingPage.png)
 
 *Image 4: Approved Project Pricing under Bid details page.*
 
@@ -108,14 +107,14 @@
 
 We can able to create a Bid in the application by providing some basic regarding the bid as shown in *Image 3*. We can start the Bid creation process from *Bids &#129042; Pricing &#129042; Click on Plus Button* as shown in below *Image 5* . Once the button is clicked it will open a form to collect information regarding the bid as shown in Image 6, Once details are filed in and click on *Submit* a bid will be created in the application and redirected to [Bid Pricing](#bid-pricing).
 
-> ***Note:*** 
+> ***Note:***
 > *Before creating a bid in application customers and contacts needed to be created in customers module. If the customer already exist, the existing customer can be reused. We have explained the customer and contact creation in [Customers](#customers) Section.*
 
-![Bid List Page](Images/Bid List Page.png)
+![Bid List Page](Images/BidListPage.png)
 
 *Image 5: Bids list page.*
 
-![Bid Form](Images/Bid Form.png)
+![Bid Form](Images/BidForm.png)
 
 *Image 6: Bid Form.*
 
@@ -125,19 +124,19 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		Bid pricing is a feature used in the application capture your bidding amount over a project/tender. We can also add estimate of pricing split-up of various expenses which you may have on various resources and services which are going to be offering to the customer as *Buy Amount* and *Sell Amount*. The page shown in *Image 15* will be shown immediately after a bid is created.  You can click on *Add Price Type* button to add a new price type into new or existing bid you have created. Form shown in *Image 16* will be opened to collect the price type, sub type and pricing information. While adding price types to a bid, new price type or sub type can be created from the bid from itself.
 
-![Bid Pricing Page](Images/Bid Pricing Page.png)
+![Bid Pricing Page](Images/BidPricingPage.png)
 
 *Image 15: Bid Pricing Page*
 
 ​		
 
-![Bid Pricing Adding Price Type](Images/Bid Pricing Adding Price Type.png) 
+![Bid Pricing Adding Price Type](Images/BidPricingAddingPriceType.png)
 
 *Image 16: Adding Price Type Bid Pricing.*
 
 ​		Once the prices types are added to pricing Bid Pricing Page will looks like as shown in *Image 17*. We enable to option to delete or edit the price type added to the pricing when needed. We have also implemented a approval process for getting permission from user from higher hierarchy. We have discussed the approval process in details under [Bid Approval](#bid-approval) section.
 
-![Bid pricing Added Bid Pricing](Images/Bid pricing Added Bid Pricing.png)
+![Bid pricing Added Bid Pricing](Images/BidpricingAddedBidPricing.png)
 
 *Image 17: Bid pricing page after adding some price type to the bid.*
 
@@ -147,7 +146,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		In bid approval process once bid pricing is completed, The bid can be sent for approval to based on hierarchy. In BLMP Application we have two hierarchy, Bid Creator and Bid Approver. Users under Bid Creator and Bid Approver both have access to create, edit and delete a price type in bid pricing process. But the Bid Approver have privilege to approve or review the bid pricing submitted by Bid Creator as shown in *Image 18*.
 
-![Bid Pricing Waiting for Approval](Images/Bid Pricing Waiting for Approval.png)
+![Bid Pricing Waiting for Approval](Images/BidPricingWaitingforApproval.png)
 
 *Image 18: Bid Pricing after submitting for approval of Admin Approver*
 
@@ -155,17 +154,17 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		If *Admin Approver* approves the pricing, the bid approval process will be completed and the bid pricing will be locked no more modification in pricing can be done by both the roles.
 
-![Approved Bid](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Approved Bid.png)
+![Approved Bid](Images/ApprovedBid.png)
 
 *Image 21: Approved pricing and Status updated to Approved*
 
 ​		If approver clicks on *Review* button, a window will prompt for *Review Comments* as shown in *Image 19*. Admin approver can adding review view in he rich text field and click on submit, Then status of the pricing will be updated to *Review* and Review Comment added by the approver will be shown to admin as shown in *Image 20*. At this stage pricing details can be revised or additional files can be attached by Admin and resubmit the pricing for approval again.
 
-![Review Comment](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Review Comment.png)
+![Review Comment](Images/ReviewComment.png)
 
-*Image 19: Rich-Text field to get review comment from approver* 
+*Image 19: Rich-Text field to get review comment from approver*
 
-![Review Comment Adding To Bid Page](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Review Comment Adding To Bid Page.png)
+![Review Comment Adding To Bid Page](Images/ReviewCommentAddingToBidPage.png)
 
 *Image 20: Status updated to Review and showing Review Comment added from Admin Approver*
 
@@ -182,7 +181,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | No of Rooms      | Number of rooms involved on this project                     |
 | No of Room Types | Number of room types involved in this project.               |
 
-![Bid to Project Conversion](/home/sankar/Documents/Yaali Project/BCI/Documentation/Final Documenation/Images/Bid to Project Conversion.png)
+![Bid to Project Conversion](Images/BidtoProjectConversion.png)
 
 *Image 21: Bid to Project conversion form fields*
 
@@ -192,13 +191,13 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Customers
 
-​		Customers module allow to maintain the details of the customer like Name, Contact Person, Phone, Address, etc. We have given the contacts as sub-form as shown in the *Image 7* since there may be more than one contact person. Contacts can also be able to added or removed from Customer form itself or contact can later be associated to a customer, We have explained this process in [Contacts](#contacts) section. You can create a new customer from *System Settings &#129042; Customers &#129042; Click on Plus Button*. A customer form will be open to collect the customer information. 
+​		Customers module allow to maintain the details of the customer like Name, Contact Person, Phone, Address, etc. We have given the contacts as sub-form as shown in the *Image 7* since there may be more than one contact person. Contacts can also be able to added or removed from Customer form itself or contact can later be associated to a customer, We have explained this process in [Contacts](#contacts) section. You can create a new customer from *System Settings &#129042; Customers &#129042; Click on Plus Button*. A customer form will be open to collect the customer information.
 
-![Customer Form](Images/Customer Form.png)
+![Customer Form](Images/CustomerForm.png)
 
 *Image 7: Customer Form*
 
-![Customer List Report](Images/Customer List Report.png)
+![Customer List Report](Images/CustomerListReport.png)
 
 *Image 8: Customers List Report.*
 
@@ -210,7 +209,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 > ***Note:*** *Customer should be created first in order to add create or associate a contact to customer. As mentioned in customer section contacts can be created from customer module itself.*
 
-![Customer Form](Images/Contact Form.png)
+![Customer Form](Images/ContactForm.png)
 
 *Image 9: Contact Creation Form.*
 
@@ -223,23 +222,23 @@ If the customer field is selected while creating a contact. The system will auto
 
 ​		As mentioned in the introduction of the contact module, This module can also used to manages access to customer portal. If a contact is not give customer portal access yet you can field an option called *Grant Customer Portal Access* in *System Settings &#129042; Contacts* as shown in *Image 10*. Once this button is clicked a email invite will be sent to respective email ID added to the contact. Once customer have accepted the invite they have read-only access to the project to which they have added as contact.
 
-![Contact Grant Customer Portal Access](Images/Contact Grant Customer Portal Access.png)
+![Contact Grant Customer Portal Access](Images/ContactGrantCustomerPortalAccess.png)
 
 *Image 10: Granting customer portal access from Contact module.*
 
-​		If customer is already given access to customer portal *Grant Customer Portal Access* action will not be available any more. Instead you can find a option called  *Revoke Customer Portal Access*, This option allow to revoke access given to customer portal for a given customer as shown in *Image 11*. You can also use *Is Customer Portal Active* column to check a contact is having customer portal access or not. 
+​		If customer is already given access to customer portal *Grant Customer Portal Access* action will not be available any more. Instead you can find a option called  *Revoke Customer Portal Access*, This option allow to revoke access given to customer portal for a given customer as shown in *Image 11*. You can also use *Is Customer Portal Active* column to check a contact is having customer portal access or not.
 
-> ***Note:*** 
+> ***Note:***
 >
 > * *If customer didn't get invite mail in inbox ask them to check in spam or trash once.*
 > * *Invalid email ID may be another reason why invite was not sent.*
 > * *Maximum number of customer portal user may have reached.*
 
-![Revoke Customer portal access from contact](Images/Revoke Customer portal access from contact.png)
+![Revoke Customer portal access from contact](Images/RevokeCustomerportalaccessfromcontact.png)
 
 *Image 11: Revoking customer portal access from Contact module.*
 
-![Customer portal Project Details page](Images/Customer portal Project Details page.png)
+![Customer portal Project Details page](Images/CustomerportalProjectDetailspage.png)
 
 *Image 12: Customer project detail view*
 
@@ -255,20 +254,19 @@ We will discuss regarding the customer portal module in details under [Customer 
 
 ​		You can add a new employee to the application from *System Settings &#129042; Employees &#129042; Add new Employee* button as shown in the *Image 13*.
 
-![Add New Emplyee Button](Images/Add New Emplyee Button.png)
+![Add New Emplyee Button](Images/AddNewEmplyeeButton.png)
 
 *Image 13: Employee list report.*
 
-![Create Employee Form](Images/Create Employee Form.png)
+![Create Employee Form](Images/CreateEmployeeForm.png)
 
 *Image 14: Form to add new employee in application*
 
 ​	Once employee details are entered and clicked on submit. Application will add this Employee as user in the BLMP application. An email invite will be sent to email ID given in from while adding a new user.  If you try to edit a existing employee's email ID access to old email ID will be revoked and Invite will we sent to new email ID.
 
-> ***Note:*** 
+> ***Note:***
 >
 > * *User email address should be unique.*
 > * *Please check for invite mail in Spam and Trash mail too.*
 > * Invalid email ID.
 > * Adding the user may fail when maximum number purchased user license have reached.
-
