@@ -18,7 +18,7 @@
    2. [Project Details](#project-details)
    3. [Hotel Details](#hotel-details)
 5. [Warehouse Module](#warehouse-module)
-   1. [Warehouse Location](#warehouse-location)
+   1. [Warehouse Locations](#warehouse-locations)
    2. [Receiving](#Receiving)
    3. [Picking](#picking)
    4. [Pulling](#pulling)
@@ -38,7 +38,7 @@
    3. [Employees](#employees)
 8. [Customer Portal](#customer-portal)
 
-#### Introduction
+#### Introduction 
 
 ​        BLMP Application helps to track the project in various of the project from the biding to installation and walk-through process. This application have various processes like [Receiving](#receiving), [Picking](#picking), [Pulling](#pulling), [On-Site Receiving](#on-site-receiving), [Installing](#installation) and [Walkthough](#walkthrough) process based on Project you create with the application to handle furnitures which are needed to a room in a hotel.  This application also include reports like Floor Wise Shortage, Room Wise Shortage and Profitability Report based on data we have generated in a project.
 
@@ -165,7 +165,8 @@ We can able to create a Bid in the application by providing some basic regarding
 
         Once [Bid to Project Conversion](#bid-to-project-conversion) is completed the project wizard for will be opened automatically to collect some more information regarding the project like *Furnitures, Rooms Types* and *Rooms*, Which will guide users thought the process of setting up the project in application. A project wizard will looks as shown in *Image 22*. In this wizard you can find options to bulk import details into the application.
 
-![ProjectWizard-FurnitureImport](/home/sankar/Documents/Office/BCIDocumentation/BCI-Documentation/Images/ProjectWizard-FurnitureImport.png)
+![ProjectWizard-FurnitureImport](Images/ProjectWizard-FurnitureImport.png)
+
 *Image 22: Furniture Upload - Project Wizard.*
 
 **Furniture Upload**
@@ -197,6 +198,120 @@ We can able to create a Bid in the application by providing some basic regarding
 [Rooms Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75ur2b031e94e8ee4ab38167abd36367d5a9&docExtn=xlsx)
 
 [Furniture Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75urd5cae0ae615542468509e24c421a7da5&docExtn=xlsx)
+
+
+
+#### Warehouse Module
+
+​		Warehouse module in BLMP application is used to manage various operations performed in within warehouse and reports which helps to maintain the inventory furnitures which moves in and out of warehouse. This module have various features like Picking, Pulling, Exception, Inventory, Floor wise shortage and Room wise shortage reports. We have covered these features in detail in this section. 
+
+##### Warehouse Locations
+
+​		Warehouse Location is report will have list of warehouse we have used in various projects in this application. To add a new warehouse to the application, we need to provide some basic details like Address, Phone, Email and also need to assign a employee from employee list as in-charge of warehouse. These details will be later be used in the application. User are allowed to create or edit a warehouse in the application. Deleting a warehouse is not permitted, because this will break the relation between records if some records where created with that warehouse.
+
+​		User can access the *Warehouse Locations* from *Warehouse Module &#129042; Warehouse Locations*. The report will open as show in *Image 23*.
+
+![WarehouseLocationScreenshot](Images/WarehouseLocationScreenshot.png)
+
+*Image 23: Warehouse Locations report in the warehouse module.* 
+
+
+
+##### Receiving
+
+​		Receiving module is use to receive furnitures into warehouse in form of Deliver Notes (DN). A delivery can be created  in receiving in order to receive those item into receive those item into warehouse inventory. You can start the receiving process by creating a DN from *Warehouse Module &#129042; Receiving &#129042; Click on Create DN* as shown in the *Image 24*, Once the button is click form shown in *Image 25* will be opened to collect information regarding DN.
+
+![ReceivingPageDNPage](Images/ReceivingPageDNPage.png)
+
+*Image 24: Receiving Page - Delivery Note List View.*
+
+![DeliverNoteForm](Images/DeliverNoteForm.png)
+
+*Image 25: DN Creation Form.*
+
+**Create DN:**
+
+​		DN from will collect informations like DN number, Expected Deliver Date, Warehouse and Products list. Warehouse field in the DN allows the system to know to which warehouse these item should be received. We have also given another two options in the DN form, those are *Receive On Create DN* and *Receive Damage Replacement*. If *Receive On Create DN* check box is ticked during DN creation, the receiving of the DN will also be completed at same time. If *DN Creation Form* is submitted without selecting the *Receive On Create DN* this DN will be available for receiving later in Receive DN tab. If *Receive Damage Replacement* check box is ticked, system will allow to receive replacements for damage reported in *Damage Management* or *Exceptions*.
+
+​	In *Products* sub-from you can select furniture you expecting to receive in the DN. The *Furniture* field will list all furnitures you have imported / created in [Project Wizard](#project-wizard). If the furniture you would like to adding is not listed, the furniture should be added from [*Project Wizard*](#project-wizard) or [*Hotel Details*](#hotel-details) page first. 		
+
+![ReceiveDNPage](Images/ReceiveDNPage.png)
+
+*Image 26: Receive DN Page.*
+
+![ReceiveDNform](Images/ReceiveDNform.png)
+
+*Image 27: Receive DN form.*
+
+**Receive DN:**
+
+​		In *Receive DN* from shown in *Image 27* is similar to *DN form*. In the *Item to be received* sub-form it will show Expected furniture quantity added in *Create DN* form, Apart from this you can find two other field called *Receive Qty* and *Warehouse Location*.  The *Receive Qty* field hold quantity of the furniture received to warehouse over *Expected Qty*. The *Warehouse Location* field is to store details where the received product is stored with in the Warehouse. This details will later be usefully during [Pulling](#pulling) process and also shown in [Inventory](#inventory). Once the *Receive Qty* and *Warehouse Location* is given you can upload some image and files relevant to this receiving process and click on submit, System will then increase the received quantity in respective warehouse inventory. 
+
+##### Floor Wise Shortage
+
+​		Shortage report show shortage of furnitures stock needed to fulfill furnitures needed to be installed in floor based on *Actual Received* quantity to the warehouse via deliver notes in [Receiving](#receiving) process. This report takes he current actual received quantity from the [Inventory](#inventory) and distribute it throughout the floor created a project. You can access this report from *Warehouse Module &rarr; Floor Wise Shortage*. As shown in *Image 28*, Will list out information like Required Quantity, Actual Received Quantity, Total Shortage Quantity, etc. 
+
+| Column Name                                      | Description                                                  |
+| ------------------------------------------------ | ------------------------------------------------------------ |
+| Item                                             | Item code of the furniture                                   |
+| Description                                      | Furniture full name or description                           |
+| Actual Received                                  | Actual quantity of furnitures received in to [Warehouse Inventory](#inventory) via [Receiving](#receiving) process. |
+| Pulled                                           | Quantity of furnitures already pulled in [Pulling](#pulling) process and available for On-Site Receiving and Installation. |
+| Damaged                                          | Quantity of furnitures reported as damage in warehouse for various reasons. |
+| Inventory Qty<br />(On Hand)                     | Quantity of furnitures currently available in inventory and ready for picking from in [Picking](#picking) process. |
+| Floor: \<floor_number><br />Tower: \<tower_name> | This columns will show shortage quantity in given floor and tower. <br />If there is any shortage, the shortage count will be shown in cell marked as red. |
+| Required Qty                                     | Actual needed quantity of the given furniture in a project.  |
+| Total Shortage                                   | Remaining quantity of furniture needed to fulfill all floors in the project. |
+
+![FloorWiseShortageReport](Images/FloorWiseShortageReport.png)*Image 28: Room Wise Shortage Report.*
+
+​		This report have option to export the report in CSV format as shown in *Image 29*. This CSV data can be saved as CSV file and later opened in any spread sheet processing software for better readability. This report also have feature to apply filters to limit the report generation specific to selected Floors and Furnitures if need. 
+
+![FloorShortageReportCSVFormat](Images/FloorShortageReportCSVFormat.png)
+
+*Image 29: Floor Wise Shortage report CSV export format.*
+
+>  ***Note:*** *If a project have more number of floors and furnitures the report can not process all floors and furnitures at same time, due Zoho Creator's statement execution limit as mentioned in [this documentation](https://help.zoho.com/portal/en/community/topic/deluge-statement-execution-limit-exceeded-the-maximum-limit). We recommending using the filter option either to limit the number of floors or furnitures to avoid ```"The number of deluge statement execution limit exceeded the maximum limit"``` issue.*
+
+
+
+##### Room Wise Shortage
+
+​	Room Wise Shortage report is similar to [Floor Wise Shortage](#floor-wise-shortage) report. Instead of shown the shortages floor wise, this report will show the shortages room wise. You can access this report from *Warehouse Module &rarr; Room Wise Shortage*. This shortage will be as shown in *Image 30,* listing the shortages of furnitures in room based on the *Actual Received* quantity of warehouse inventory. 
+
+| Column Name                  | Description                                                  |
+| ---------------------------- | ------------------------------------------------------------ |
+| Item                         | Item code of the furniture                                   |
+| Description                  | Furniture full name or description                           |
+| Actual Received              | Actual quantity of furnitures received in to [Warehouse Inventory](#inventory) via [Receiving](#receiving) process. |
+| Pulled                       | Quantity of furnitures already pulled in [Pulling](#pulling) process and available for On-Site Receiving and Installation. |
+| Damaged                      | Quantity of furnitures reported as damage in warehouse for various reasons. |
+| Inventory Qty<br />(On Hand) | Quantity of furnitures currently available in inventory and ready for picking from in [Picking](#picking) process. |
+| Room: \<room_number>         | This columns will show shortage quantity in given room. <br />If there is any shortage, the shortage count will be shown in cell marked as red. |
+| Required Qty                 | Actual needed quantity of the given furniture in a project.  |
+| Total Shortage               | Remaining quantity of furniture needed to fulfill all floors in the project. |
+
+![RoomWiseShortage](Images/RoomWiseShortage.png)
+
+*Image 30: Room Wise Shortage report.*
+
+​		This report also have option to export the report as CSV format and allows to apply filters to limit the report generation specific to selected Rooms and Furnitures if need. 
+
+> ***Note:*** *If a project have more number of rooms and furnitures the report can not process all rooms and furnitures at same time, due Zoho Creator's statement execution limit as mentioned in [this documentation](https://help.zoho.com/portal/en/community/topic/deluge-statement-execution-limit-exceeded-the-maximum-limit). We recommending using the filter option either to limit the number of rooms or furnitures to avoid ```"The number of deluge statement execution limit exceeded the maximum limit"``` issue.*
+
+
+
+#### Inventory
+
+**Overall Inventory**
+
+![OverallInventory](Images/OverallInventory.png)
+
+**Warehouse Inventory**
+
+![WarehouseInventory](Images/WarehouseInventory.png)
+
+**Inventory Adjustments**
 
 #### Settings
 
