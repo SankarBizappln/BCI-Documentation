@@ -249,7 +249,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Picking
 
-​		Picking process can be used by Project Managers or Project Co-Ordinator to create a pick-list for the room they have planned to install. In our system we have option to pick multiple rooms at a time. They have start the picking by selecting one or more rooms to be picked from *Warehouse Module &rarr; Picking &rarr; Pick* as shown in *Image 31* and click on *Bulk Pick* button which will open a pre-populated form as shown *Image 32*. This *Bulk Pick Form* will having some basic information regarding picking process like Unique ID, Picking Date and Time, Floors, Rooms, Room Types and Warehouse in which is picking is done. The *Furniture* sub-from will have list of furnitures needed to be picked for selected room accordingly to room types you have import in [Project Wizard](#project-wizard), This subfrom also shown and collect information which are listed in following *Table 3*.
+​		Picking process can be used by Project Managers or Project Coordinator to create a pick-list for the room they have planned to install. In our system we have option to pick multiple rooms at a time. They have start the picking by selecting one or more rooms to be picked from *Warehouse Module &rarr; Picking &rarr; Pick* as shown in *Image 31* and click on *Bulk Pick* button which will open a pre-populated form as shown *Image 32*. This *Bulk Pick Form* will having some basic information regarding picking process like Unique ID, Picking Date and Time, Floors, Rooms, Room Types and Warehouse in which is picking is done. The *Furniture* sub-from will have list of furnitures needed to be picked for selected room according to room types you have import in [Project Wizard](#project-wizard), This sub-from also shown and collect information which are listed in following *Table 3*.
 
 | Column Name               | Description                                                  |
 | ------------------------- | ------------------------------------------------------------ |
@@ -261,7 +261,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | Pick Qty                  | User can input the quantity they would like to pick from the inventory. User are allowed to pick less than or equal to *Remaining Qty* during the picking process. |
 | DN#                       | List of DN in which given item is received into selected warehouse in [Receiving](#receiving) process. |
 | Warehouse Location        | List out warehouse locations added while receiving the furnitures into warehouse in [Receiving](#receiving) process. |
-*Table 3: Furnitures sub-form field description.*
+*Table 3: Furnitures sub-form field description in picking process.*
 
 ![Room Selection in Picking process](Images/PickingRoomSelection.png)
 *Image 31: Picking room to be picked.*
@@ -269,7 +269,38 @@ We can able to create a Bid in the application by providing some basic regarding
 ![PickingForm](Images/PickingForm.png)
 *Image 32: Picking form for rooms selected in Image 31.*
 
-​	In picking process we have also given two other options, Option to mark a pick-list as *Handover These Item While On-Site Receiving* and option pick replacement item from inventory when replacement damage is reported at On-Site process. We discuss the Handover process in details under [Handover](#handover-process) section and We discuss the on-site replacement damage further in [Damage Management](#damage-management) section.
+​		In picking process we have also given two other options, Option to mark a pick-list as *Handover These Item While On-Site Receiving* and option pick replacement item from inventory when replacement damage is reported at On-Site process. We discuss the Handover process in details under [Handover](#handover-process) section and We discuss the on-site replacement damage further in [Damage Management](#damage-management) section.
+
+​		Once the picking form is field with needed *Pick Qty*, the form can be submitted which in turn reduces the inventory level based on given *Pick Qty* in respective furniture and warehouse accordingly to make to no item is double picked (i.e., Picking same item more than once) during the picking process. Now this pick-list will be available for pulling in [Pulling](#pulling) process.  
+
+##### Pulling
+
+​		Pulling process can be used by *Warehouse Manager* and *Warehouse Staff* to pull needful items from the warehouse physically from warehouse based on pick-list created by *Project Manager* or *Project Coordinator* in [Picking](#picking) process. User can access the Pull-Sheets from *Warehouse Module &rarr; Pulling &rarr; Create Pull-Sheet* list will be opened as shown in *Image 33*. All pick-lists created picking process will be listed under *Create Pull-Sheet* tab, User a select a pick-list and click on *Edit* start the pulling process, Once the *Edit* option is clicked a pre-populated form with furnitures picked in *Picking Process* will be listed with respective pick quantity given in previous stage will be opened as shown in *Image 34*.
+
+##### ![PullsheetList](/home/sankar/Documents/Office/BCIDocumentation/BCI-Documentation/Images/PullsheetList.png)
+
+*Image 33: List of Pick-Lists created in Picking Process.*
+
+![PullSheetForm](/home/sankar/Documents/Office/BCIDocumentation/BCI-Documentation/Images/PullSheetForm.png)
+
+*Image 34: Pull-sheet Form.*
+
+​		The pulling form will be pre-populated with information added while creating pick list like Floor, Rooms, Room Type and Warehouse in read-only mode. Furnitures sub-from will have list of furnitures which was picked during *Picking* process and also it has *Picked Qty* to show number for furnitures needed to be pulled from warehouse physically by warehouse people. Furnitures sub-from also shown and collect information which are listed in following *Table 4*.
+
+| Column Name               | Description                                                  |
+| ------------------------- | ------------------------------------------------------------ |
+| Furniture                 | This column shows list of furnitures needed to be picked for fulfilling selected rooms based on room types import in [Project Wizard](#project-wizard). |
+| Total Qty Required        | Actually needed quantity of furniture needed to be installed in selected while creating *Bulk Pick*. |
+| Inventory (Stock In Hand) | This column shown *Stock In Hand* quantity of given furniture in warehouse you have selected in *Warehouse* field. |
+| Pick Qty                  | Quantity of furniture needed to pulled from warehouse for fulfilling the rooms selected during picking process. |
+| Qty Pulled                | Actual quantity of furniture pulled by warehouse by warehouse member. *Qty Pulled* can't be less than *Pick Qty*, But can be greater than or equal to *Pick Qty*. <br /><br />Users are allowed to pull more than *Pick Qty* because, In some cases some furnitures can be shipped as box with two or more item in a box as a set. Which can not be unboxed in warehouse to fulfill exact *Pick Qty*. In this case this option can be used, A proper *Notes* should be provided in order to send more than the actual *Pick Qty.* |
+| DN#                       | List of DN in which given item is received into selected warehouse in [Receiving](#receiving) process. |
+| Warehouse Location        | List out warehouse locations added while receiving the furnitures into warehouse in [Receiving](#receiving) process. |
+| Notes                     | Notes field can be used to store some information or pass some information to next stage of the process. For example: Notes column is mandatory if you are pulling more than *Pick Qty*, So reason why *Qty Pulled* is greater than *Pick Qty should be given in notes field in order to submit the form. |
+
+*Table 4: Furnitures sub-form field description in picking process.*
+
+​		In the pulling process also it is possible to mark a picking as *Handover These Item While On-Site Receiving* though this option was not checked during the picking process. Pulling form will also have fields to upload images and files, which will be useful to attach image furniture they pulled from warehouse and any documents related to pulling process in the pull-sheet it self if needed.
 
 ##### Floor Wise Shortage
 
