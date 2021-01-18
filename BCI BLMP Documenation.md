@@ -249,14 +249,27 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Picking
 
-​		Picking process can be used by Project Managers or Project Co-Ordinator to create a pick-list for the room they have planned to install. In our system we have option to pick multiple rooms at a time. They have start the picking by selecting one or more rooms to be picked from *Warehouse Module &rarr; Picking &rarr; Pick* as shown in *Image 31* and click on *Bulk Pick* button which will open a pre-populated form as shown *Image 32*. This *Bulk Pick Form* will having some basic information regarding picking process like Unique ID, Picking Date and Time, Floors, Rooms, Room Types and Warehouse in which is picking is done. The *Furniture* sub-from will have list of furnitures to be picked 
+​		Picking process can be used by Project Managers or Project Co-Ordinator to create a pick-list for the room they have planned to install. In our system we have option to pick multiple rooms at a time. They have start the picking by selecting one or more rooms to be picked from *Warehouse Module &rarr; Picking &rarr; Pick* as shown in *Image 31* and click on *Bulk Pick* button which will open a pre-populated form as shown *Image 32*. This *Bulk Pick Form* will having some basic information regarding picking process like Unique ID, Picking Date and Time, Floors, Rooms, Room Types and Warehouse in which is picking is done. The *Furniture* sub-from will have list of furnitures needed to be picked for selected room accordingly to room types you have import in [Project Wizard](#project-wizard), This subfrom also shown and collect information which are listed in following *Table 3*.
+
+| Column Name               | Description                                                  |
+| ------------------------- | ------------------------------------------------------------ |
+| Furniture                 | This column shows list of furnitures needed to be picked for fulfilling selected rooms based on room types import in [Project Wizard](#project-wizard). |
+| Total Qty Required        | Actually needed quantity of furniture needed to be installed in selected while creating *Bulk Pick*. |
+| Already Picked            | Quantity of furniture already picked for fulfilling selected rooms. |
+| Remaining Qty             | Number of quantity out of *Total Qty Required* needed to be picked yet to completely fulfill selected rooms. |
+| Inventory (Stock In Hand) | This column shown *Stock In Hand* quantity of given furniture in warehouse you have selected in *Warehouse* field. |
+| Pick Qty                  | User can input the quantity they would like to pick from the inventory. User are allowed to pick less than or equal to *Remaining Qty* during the picking process. |
+| DN#                       | List of DN in which given item is received into selected warehouse in [Receiving](#receiving) process. |
+| Warehouse Location        | List out warehouse locations added while receiving the furnitures into warehouse in [Receiving](#receiving) process. |
+*Table 3: Furnitures sub-form field description.*
 
 ![Room Selection in Picking process](Images/PickingRoomSelection.png)
 *Image 31: Picking room to be picked.*
 
 ![PickingForm](Images/PickingForm.png)
-
 *Image 32: Picking form for rooms selected in Image 31.*
+
+​	In picking process we have also given two other options, Option to mark a pick-list as *Handover These Item While On-Site Receiving* and option pick replacement item from inventory when replacement damage is reported at On-Site process. We discuss the Handover process in details under [Handover](#handover-process) section and We discuss the on-site replacement damage further in [Damage Management](#damage-management) section.
 
 ##### Floor Wise Shortage
 
