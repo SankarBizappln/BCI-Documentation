@@ -358,7 +358,28 @@ We can able to create a Bid in the application by providing some basic regarding
 
 #### Inventory
 
+​		Inventory module allow to keep track of furnitures in which are brought in to application via receiving process and thought the application up-to walk-though process. We have both *Overall Inventory* and *Warehouse Inventory* in  BLMP application. We have discussed these reports in details in following sub-sections.
+
 **Overall Inventory**
+
+​		Overall Inventory will have list of furnitures you have received into warehouse irrespective of warehouse (i.e., Sum of all inventory from all warehouse) via [Receiving](#receiving) process. You can access this module from *Warehouse Module &rarr; Inventory &rarr; Inventory tab*. Following are list of column shown in the Overall Inventory:
+
+| Column Name                | Description                                                  |
+| -------------------------- | ------------------------------------------------------------ |
+| Furniture                  | Name of the furniture.                                       |
+| Item Code                  | Item code / SKU of respective furniture.                     |
+| Description                | Any Description or Comment added while importing furnitures into project. |
+| Vendor                     | Name of furniture added while importing furnitures into project. |
+| PO#                        | PO number added while importing furnitures into project.     |
+| Storage Type               | Storage Type number added while importing furnitures into project. |
+| Project Quantity           | Project Quantity added while importing furnitures into project. |
+| Received Quantity          | Quantity of furniture received into warehouse via [Receiving](#receiving) process |
+| Stock In Hand              | Quantity of furniture currently available in inventory after [Picking](#picking) and [Pulling](#pulling) process. <br />i.e., *Stock In Hand* = *Received Quantity* - *Pulled Quantity* |
+| Pulled Quantity            | Sum of Picked and Pulled quantity from warehouses via [Picking](#picking) and [Pulling](#pulling) process. |
+| On-site Receiving Quantity | Quantity of furnitures received at installation site out of *Pulled Quantity.*<br />i.e., *Pull Quantity* >= On-site Receiving Quantity* |
+| Installed Quantity         | Quantity of furniture installed on-site in [Installed](#installation) process. |
+| Damage Quantity            | Quantity of furniture reported as damage in [Exceptions](#exceptions) or [Damage Management](#damage-management) progress. |
+| Repaired Qua               |                                                              |
 
 ![OverallInventory](Images/OverallInventory.png)
 
