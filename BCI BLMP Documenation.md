@@ -317,6 +317,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | Floor: \<floor_number><br />Tower: \<tower_name> | This columns will show shortage quantity in given floor and tower. <br />If there is any shortage, the shortage count will be shown in cell marked as red. |
 | Required Qty                                     | Actual needed quantity of the given furniture in a project.  |
 | Total Shortage                                   | Remaining quantity of furniture needed to fulfill all floors in the project. |
+*Table 5: Floor Wise Shortage report column description.*
 
 ![FloorWiseShortageReport](Images/FloorWiseShortageReport.png)*Image 28: Room Wise Shortage Report.*
 
@@ -345,6 +346,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | Room: \<room_number>         | This columns will show shortage quantity in given room. <br />If there is any shortage, the shortage count will be shown in cell marked as red. |
 | Required Qty                 | Actual needed quantity of the given furniture in a project.  |
 | Total Shortage               | Remaining quantity of furniture needed to fulfill all floors in the project. |
+*Table 6: Room Wise Shortage report column description.*
 
 ![RoomWiseShortage](Images/RoomWiseShortage.png)
 
@@ -371,23 +373,72 @@ We can able to create a Bid in the application by providing some basic regarding
 | Description                | Any Description or Comment added while importing furnitures into project. |
 | Vendor                     | Name of furniture added while importing furnitures into project. |
 | PO#                        | PO number added while importing furnitures into project.     |
+| DN#                        | List of delivery notes from which furniture are received into warehouse respectively. |
+| Warehouse                  | Name of warehouse the furniture belongs to.                  |
 | Storage Type               | Storage Type number added while importing furnitures into project. |
 | Project Quantity           | Project Quantity added while importing furnitures into project. |
 | Received Quantity          | Quantity of furniture received into warehouse via [Receiving](#receiving) process |
 | Stock In Hand              | Quantity of furniture currently available in inventory after [Picking](#picking) and [Pulling](#pulling) process. <br />i.e., *Stock In Hand* = *Received Quantity* - *Pulled Quantity* |
 | Pulled Quantity            | Sum of Picked and Pulled quantity from warehouses via [Picking](#picking) and [Pulling](#pulling) process. |
-| On-site Receiving Quantity | Quantity of furnitures received at installation site out of *Pulled Quantity.*<br />i.e., *Pull Quantity* >= On-site Receiving Quantity* |
+| On-site Receiving Quantity | Quantity of furnitures received at installation site out of *Pulled Quantity.*<br />i.e., *Pull Quantity* >= On-site Receiving Quantity |
 | Installed Quantity         | Quantity of furniture installed on-site in [Installed](#installation) process. |
 | Damage Quantity            | Quantity of furniture reported as damage in [Exceptions](#exceptions) or [Damage Management](#damage-management) progress. |
-| Repaired Qua               |                                                              |
+| Repaired Quantity          | Quantity of furniture repaired out of reported Damage Quantity. |
+| On-Site Excess Quantity    | Furnitures pulled more than required pick quantity and sent to on-site will be listed in this column. |
+| Missing Quantity           | Quantity of furnitures reported as missing and not yet resolved. |
+*Table 7: Overall Inventory report column description.*
 
 ![OverallInventory](Images/OverallInventory.png)
 
+*Image 31: Overall Inventory report.* 
+
 **Warehouse Inventory**
+
+​		Warehouse Inventory will have list of furnitures you have received into warehouse respective to warehouse via [Receiving](#receiving) process. You can access this module from *Warehouse Module &rarr; Inventory &rarr; Warehouse Inventory tab*. Following are list of column shown in the Overall Inventory:
+
+| Column Name                | Description                                                  |
+| -------------------------- | ------------------------------------------------------------ |
+| Furniture                  | Name of the furniture.                                       |
+| Item Code                  | Item code / SKU of respective furniture.                     |
+| Description                | Any Description or Comment added while importing furnitures into project. |
+| Vendor                     | Name of furniture added while importing furnitures into project. |
+| PO#                        | PO number added while importing furnitures into project.     |
+| Storage Type               | Storage Type number added while importing furnitures into project. |
+| Project Quantity           | Project Quantity added while importing furnitures into project. |
+| Received Quantity          | Quantity of furniture received into warehouse via [Receiving](#receiving) process |
+| Stock In Hand              | Quantity of furniture currently available in inventory after [Picking](#picking) and [Pulling](#pulling) process. <br />i.e., *Stock In Hand* = *Received Quantity* - *Pulled Quantity* |
+| Pulled Quantity            | Sum of Picked and Pulled quantity from warehouses via [Picking](#picking) and [Pulling](#pulling) process. |
+| On-site Receiving Quantity | Quantity of furnitures received at installation site out of *Pulled Quantity.*<br />i.e., *Pull Quantity* >= On-site Receiving Quantity |
+| Installed Quantity         | Quantity of furniture installed on-site in [Installed](#installation) process. |
+| Damage Quantity            | Quantity of furniture reported as damage in [Exceptions](#exceptions) or [Damage Management](#damage-management) progress. |
+| Repaired Quantity          | Quantity of furniture repaired out of reported Damage Quantity. |
+| On-Site Excess Quantity    | Furnitures pulled more than required pick quantity and sent to on-site will be listed in this column. |
+| Missing Quantity           | Quantity of furnitures reported as missing and not yet resolved. |
+*Table 8: Warehouse Inventory report column description.*
 
 ![WarehouseInventory](Images/WarehouseInventory.png)
 
+*Image 32: Warehouse Inventory report.*
+
+> ***Note:*** *Both Overall Inventory and Warehouse Inventory will also visible in customer portal, So customer can also keep track of furniture though out various stages.*
+
 **Inventory Adjustments**
+
+​		Inventory Adjustment feature enable to manually adjust the inventory or transfer stock from one warehouse to another by reducing the stock in *From* warehouse and increasing the stock in *To* warehouse. Once *Inventory Adjustment* button is click from Inventory module, Form shown in *Image 34* will be opened to collect the some informations like *Warehouse, Furniture* and *Quantity*. Hotel and Project field will be auto-filled on form load based on current project selection. 
+
+> ***Note:*** 
+>
+> * Negative values are allowed in Quantity.
+>
+> * Quantity should be prefixed with + (plus) or - (minus) symbol to adjust the inventory accordingly.
+>
+> * Example:
+>
+>   > Let us assume we have Item A of 15 quantity in inventory. To reduce 5 quantity from inventory -5 (minus five) should be given as Quantity. If you like to increase the inventory by 5, Then +5 (plus five) should be given as input in Quantity field.
+
+![Inventory Adjustment Form](/home/sankar/Documents/Office/BCIDocumentation/BCI-Documentation/Images/InventoryAdjustmentForm.png)
+
+*Image 34: Inventory Adjustment form.*
 
 #### Settings
 
