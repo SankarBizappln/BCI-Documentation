@@ -199,7 +199,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | Room Type        | String    | Type of room you have to add to your project                 | True      | False  |
 | Furniture Item Code   | String    | Furniture item code you are importing into application  | False     | False  |
 | Description      | String    | Detailed description of the furniture                        | False     | False  |
-| Quantity         | NUmber    | No of Furniture required for that room                       | False     | False   |
+| Quantity         | Number    | No of Furniture required for that room                       | False     | False   |
 *Table 3: Room type upload data column description.*
 
 **Room Upload**
