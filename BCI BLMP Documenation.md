@@ -163,7 +163,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### All Project List
         
-        All Project List Report contains the details of projects that are created.To View a particular project click on *Select Project* button in the All project List report.
+​       All Project List Report contains the details of projects that are created.To View a particular project click on *Select Project* button in the All project List report.
         
 ![ All Project List Report ](Images/AllProjectList.png.png)
 *Image 22: All Project List Report
