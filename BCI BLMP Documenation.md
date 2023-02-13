@@ -166,7 +166,14 @@ We can able to create a Bid in the application by providing some basic regarding
 ​       All Project List Report contains the details of projects that are created.To View a particular project click on *Select Project* button in the All project List report.
         
 ![ All Project List Report ](Images/AllProjectList.png.png)
-*Image 22: All Project List Report
+*Image 22: All Project List Report*
+
+##### Project List
+
+​       Project List report is specfic to every employees.This report contains the details project which are assaigned for a particular employee.To View a particluar project click on *Select Project* button in report.
+
+![Project List](Images/ProjectList.png)
+*Image 23:Project List Report*
 
 ##### Project Wizard
 
