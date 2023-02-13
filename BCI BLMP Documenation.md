@@ -175,6 +175,15 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Project List](Images/ProjectList.png)
 *Image 23:Project List Report*
 
+##### Project Details
+
+**Project Info**
+
+​       Project info report contains details of particular project,the details includes Project Name,Customer name,Project owner,Lead Source,Closing Stage of the project and Stage of the project.It contains additional information such as Project Pricing,Weight and Project Profitablility.
+
+![Project Info](Images/ProjectInfo.png)
+*Image 24: Detailed View of Project*
+
 ##### Project Wizard
 
         Once [Bid to Project Conversion](#bid-to-project-conversion) is completed the project wizard for will be opened automatically to collect some more information regarding the project like *Furnitures, Rooms Types* and *Rooms*, Which will guide users thought the process of setting up the project in application. A project wizard will looks as shown in *Image 22*. In this wizard you can find options to bulk import details into the application.
