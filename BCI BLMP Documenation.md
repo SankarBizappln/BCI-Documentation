@@ -161,6 +161,13 @@ We can able to create a Bid in the application by providing some basic regarding
 
 #### Projects
 
+##### All Project List
+        
+        All Project List Report contains the details of projects that are created.To View a particular project click on *Select Project* button in the All project List report.
+        
+![ All Project List Report ](Images/AllProjectList.png.png)
+*Image 22: All Project List Report
+
 ##### Project Wizard
 
         Once [Bid to Project Conversion](#bid-to-project-conversion) is completed the project wizard for will be opened automatically to collect some more information regarding the project like *Furnitures, Rooms Types* and *Rooms*, Which will guide users thought the process of setting up the project in application. A project wizard will looks as shown in *Image 22*. In this wizard you can find options to bulk import details into the application.
