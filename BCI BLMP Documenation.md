@@ -169,14 +169,14 @@ We can able to create a Bid in the application by providing some basic regarding
 ​       All Project List Report contains the details of projects that are created.To View a particular project click on *Select Project* button in the All project List report.
         
 ![ All Project List Report ](Images/AllProjectList.png.png)
-*Image 22: All Project List Report*
+*Image 21-a: All Project List Report*
 
 ##### Project List
 
 ​       Project List report is specfic to every employees.This report contains the details project which are assaigned for a particular employee.To View a particluar project click on *Select Project* button in report.
 
 ![Project List](Images/ProjectList.png)
-*Image 23:Project List Report*
+*Image 21-b:Project List Report*
 
 ##### Project Details
 
@@ -185,7 +185,7 @@ We can able to create a Bid in the application by providing some basic regarding
 ​       Project info report contains details of particular project,the details includes Project Name,Customer name,Project owner,Lead Source,Closing Stage of the project and Stage of the project.It contains additional information such as Project Pricing,Weight and Project Profitablility.
 
 ![Project Info](Images/ProjectInfo.png)
-*Image 24: Detailed View of Project*
+*Image 21-c: Detailed View of Project*
 
 **Bids**
 
@@ -208,18 +208,18 @@ We can able to create a Bid in the application by providing some basic regarding
 ​      Room Task report contains details rooms that are in present in currently selected project.Also two bars present on the top represents Installation completed percentage.Left bar represents the total number items installed for the current project,and the right bar represents installation completion status of total room present in project.
 
 ![Room Task](Images/RoomTask.png)
-*Image 25: Room Task Report*
+*Image 21-d: Room Task Report*
 
 
 ##### Hotel Details
 
 **Furniture**
 
-​		Furniture report contains details of furniture present in the current project.Furniture form is also used for uploading each furniture manually.For manully adding each furniture select *+Add Furniture* Button on Furniture report which is highlited below.After selection Add Furniture button a form will be loaded will looks as shown in *Image 26*.Add Necesarry details of furniture such as Furniture,Item Code,Project Qty and Storeage type, After adding those details click on submit button.Then the furniture details will be adde in Furniture Report.
+​		Furniture report contains details of furniture present in the current project.Furniture form is also used for uploading each furniture manually.For manully adding each furniture select *+Add Furniture* Button on Furniture report which is highlited in *Image 21-e* below.After selection Add Furniture button a form will be loaded will looks as shown in *Image 21-f*.Add Necesarry details of furniture such as Furniture,Item Code,Project Qty and Storeage type, After adding those details click on submit button.Then the furniture details will be adde in Furniture Report.
 
 **Tower**
 
-​		Tower Report contains details of tower that are present in the project.It contains details such as Tower name and Description.Also in this tower report you can manually add each tower details by selecting *+Add tower* button which is higlited in below mentioned image.After selection add tower option , a small dialogue box appears,where you can enter the  details of the tower which you are going create.After entering all details click on submit button.Added tower details will get uploaded in Tower report.
+​		Tower Report contains details of tower that are present in the project.It contains details such as Tower name and Description.Also in this tower report you can manually add each tower details by selecting *+Add tower* button which is higlited in below mentioned *Image 21-g* .After selection add tower option , a small dialogue box appears will looks as shown in *Image 21-h*,where you can enter the  details of the tower which you are going create.After entering all details click on submit button.Added tower details will get uploaded in Tower report.
 
 **Floor**
 
