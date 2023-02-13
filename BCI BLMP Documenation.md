@@ -215,6 +215,9 @@ We can able to create a Bid in the application by providing some basic regarding
 | Floor            | String    | Floor Number for the room.                                   | Fasle      | False | 
 | Room Type        | String    | Room type details for the room                               | Fasle      | False |  
 | Room No          | String    | Room No details for the room.                                | Fasle      | True  |
+*Table 3: Room type upload data column description.*
+
+
 
 
 
