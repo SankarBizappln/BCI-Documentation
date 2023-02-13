@@ -211,6 +211,27 @@ We can able to create a Bid in the application by providing some basic regarding
 *Image 25: Room Task Report*
 
 
+##### Hotel Details
+
+**Furniture**
+
+​		Furniture report contains details of furniture present in the current project.Furniture form is also used for uploading each furniture manually.For manully adding each furniture select *+Add Furniture* Button on Furniture report which is highlited below.After selection Add Furniture button a form will be loaded will looks as shown in *Image 26*.Add Necesarry details of furniture such as Furniture,Item Code,Project Qty and Storeage type, After adding those details click on submit button.Then the furniture details will be adde in Furniture Report.
+
+**Tower**
+
+​		Tower Report contains details of tower that are present in the project.It contains details such as Tower name and Description.Also in this tower report you can manually add each tower details by selecting *+Add tower* button which is higlited in below mentioned image.After selection add tower option , a small dialogue box appears,where you can enter the  details of the tower which you are going create.After entering all details click on submit button.Added tower details will get uploaded in Tower report.
+
+**Floor**
+
+​		Floor report contains the details of Floors that are present in the Project.Floor report is also used to uploading each floor data manually.For each adding each floor to the report,Click on *+Add Floor* button on the floor report as mentioned in the image below.After selecting Add floor button,a small dialogue box will appear on screen,on that form add the details of floor that you are going to create.after entering all the details click on submit button.Added floor details will get reflected on Floor report.
+
+**Room Type**
+
+​		This report contains the details of Room type details.you can add Room type record manually by Selecting *+Add Room Type* button on the Rom type report as mentioned in the image below.A new form will get loaded for adding Room Type record.Enter all necessary details such as Room Type,description,Furniture and Quantity.After entering all the details click on submit button,After submitting the record added room type details will get reflected on Room type report. 
+
+      For Changing the design of room type for single room type,click on the *COD* button as mentioned in the below image.After selection the COD button, a new form will get loaded for chagind the design for Room type.There are two process for changing the design of the room , they are *Adjustment Existing Furniture* and *Add new furniture*.
+      
+      
 ##### Project Wizard
 
         Once [Bid to Project Conversion](#bid-to-project-conversion) is completed the project wizard for will be opened automatically to collect some more information regarding the project like *Furnitures, Rooms Types* and *Rooms*, Which will guide users thought the process of setting up the project in application. A project wizard will looks as shown in *Image 22*. In this wizard you can find options to bulk import details into the application.
