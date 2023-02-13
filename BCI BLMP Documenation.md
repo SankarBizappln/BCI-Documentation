@@ -185,6 +185,30 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Project Info](Images/ProjectInfo.png)
 *Image 24: Detailed View of Project*
 
+**Bids**
+
+​       Bids contains information about the Pricing type,Sub type,Buy Amount,Sell Amount and Staus of the project.
+
+**Employee**
+
+​      Employee report contains the details of project that are assigned for a particular employee,and some other details such as Name of the employee and Role of the employee.
+
+**Project Files**
+
+​      Project Files contains details of files that are associated with a particular Project.
+
+**Waiting for Accrual**
+
+​      Waiting for Accrual report track the expenses of the project Such as expense type,Expense amount,and Accrue.
+
+**Room Task**
+
+​      Room Task report contains details rooms that are in present in currently selected project.Also two bars present on the top represents Installation completed percentage.Left bar represents the total number items installed for the current project,and the right bar represents installation completion status of total room present in project.
+
+![Room Task](Images/RoomTask.png)
+*Image 25: Room Task Report*
+
+
 ##### Project Wizard
 
         Once [Bid to Project Conversion](#bid-to-project-conversion) is completed the project wizard for will be opened automatically to collect some more information regarding the project like *Furnitures, Rooms Types* and *Rooms*, Which will guide users thought the process of setting up the project in application. A project wizard will looks as shown in *Image 22*. In this wizard you can find options to bulk import details into the application.
