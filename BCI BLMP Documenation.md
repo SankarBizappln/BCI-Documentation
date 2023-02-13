@@ -171,6 +171,8 @@ We can able to create a Bid in the application by providing some basic regarding
 
 **Furniture Upload**
 
+[Furniture Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75urd5cae0ae615542468509e24c421a7da5&docExtn=xlsx)
+
 ​		*Furniture Upload* tab will allow you to upload/import furniture into a project. You can use the *Import Data* feature available in the report shown in *Image 22*. For import the data into this report data should be available as a CSV (Comma Separated Values), XLS or XLSX format with following columns listed in the following *Table 2*.
 
 | Column Name      | Data Type | Description                                                  | Mandatory | Unique |
@@ -185,6 +187,34 @@ We can able to create a Bid in the application by providing some basic regarding
 | Storage Type     | String    | Storage Type                                                 | False     | False  |
 *Table 2: Furniture upload data column description.*
 
+**Room Type Upload**
+
+[Room Types Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75urc8eca11b2ced459097448aa255e1be00&docExtn=xlsx)
+
+​		*Room Type Upload* tab will allow you to upload/import type of rooms into a project.You can use *Import Data* feature for import/upload room type details into your project.For import the data into this report data should be available as a CSV (Comma Separated Values), XLS or XLSX format with following columns listed in the following *Table 3*.
+
+| Column Name      | Data Type | Description                                                  | Mandatory | Unique |
+| ---------------- | --------- | ------------------------------------------------------------ | --------- | ------ |
+| Project Code     | String    | Unique project ID assigned to a project you are currently working on. <br />**Note:** Each furniture row in the sheet should have project code value.  | True      | False  |
+| Room Type        | String    | Type of room you have to add to your project                 | True      | False  |
+| Furniture Item Code   | String    | Furniture item code you are importing into application  | False     | False  |
+| Description      | String    | Detailed description of the furniture                        | False     | False  |
+| Quantity         | NUmber    | No of Furniture required for that room                       | False     | True   |
+*Table 3: Room type upload data column description.*
+
+**Room Upload**
+
+[Rooms Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75ur2b031e94e8ee4ab38167abd36367d5a9&docExtn=xlsx)
+
+​		*Room Upload* tab will allow you to upload/import Rooms into a project.You can use *Import Data* feature for import/upload room type details into your project.For import the data into this report data should be available as a CSV (Comma Separated Values), XLS or XLSX format with following columns listed in the following *Table 4*.
+
+| Column Name      | Data Type | Description                                                  | Mandatory | Unique |
+| ---------------- | --------- | ------------------------------------------------------------ | --------- | ------ |
+| Project Code     | String    | Unique project ID assigned to a project you are currently working on. <br />**Note:** Each furniture row in the sheet should have project code value.  | False      | False  |
+| Tower            | String    | Tower details where the room is located.                     | Fasle      | False |      
+| Floor            | String    | Floor Number for the room.                                   | Fasle      | False | 
+| Room Type        | String    | Room type details for the room                               | Fasle      | False |  
+
 > ***Note:*** *In BLMP application, If a furniture, room type or room created or imported to a project it will associate with that project only. This furniture, room type or room will not be accessible from other project in the application. Though, User have access to multiple project in the application.*
 
 
@@ -193,11 +223,6 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Hotel Details
 
-[Room Types Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75urc8eca11b2ced459097448aa255e1be00&docExtn=xlsx)
-
-[Rooms Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75ur2b031e94e8ee4ab38167abd36367d5a9&docExtn=xlsx)
-
-[Furniture Import Template](https://docs.zoho.com/downloaddoc.do?docId=j75urd5cae0ae615542468509e24c421a7da5&docExtn=xlsx)
 
 
 
