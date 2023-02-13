@@ -229,7 +229,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		This report contains the details of Room type details.you can add Room type record manually by Selecting *+Add Room Type* button on the Rom type report as mentioned in the image below.A new form will get loaded for adding Room Type record.Enter all necessary details such as Room Type,description,Furniture and Quantity.After entering all the details click on submit button,After submitting the record added room type details will get reflected on Room type report. 
 
-      For Changing the design of room type for single room type,click on the *COD* button as mentioned in the below image.After selection the COD button, a new form will get loaded for chagind the design for Room type.There are two process for changing the design of the room , they are *Adjustment Existing Furniture* and *Add new furniture*.
+ ​     For Changing the design of room type for single room type,click on the *COD* button as mentioned in the below image.After selection the COD button, a new form will get loaded for chagind the design for Room type.There are two process for changing the design of the room , they are *Adjustment Existing Furniture* and *Add new furniture*.
       
       
 ##### Project Wizard
