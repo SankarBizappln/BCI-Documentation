@@ -195,11 +195,11 @@ We can able to create a Bid in the application by providing some basic regarding
 
 | Column Name      | Data Type | Description                                                  | Mandatory | Unique |
 | ---------------- | --------- | ------------------------------------------------------------ | --------- | ------ |
-| Project Code     | String    | Unique project ID assigned to a project you are currently working on. <br />**Note:** Each furniture row in the sheet should have project code value.  | True      | False  |
+| Project Code     | String    | Unique project ID assigned to a project you are currently working on. <br />**Note:** Each room type row in the sheet should have project code value.  | True      | False  |
 | Room Type        | String    | Type of room you have to add to your project                 | True      | False  |
 | Furniture Item Code   | String    | Furniture item code you are importing into application  | False     | False  |
 | Description      | String    | Detailed description of the furniture                        | False     | False  |
-| Quantity         | NUmber    | No of Furniture required for that room                       | False     | True   |
+| Quantity         | NUmber    | No of Furniture required for that room                       | False     | False   |
 *Table 3: Room type upload data column description.*
 
 **Room Upload**
@@ -210,10 +210,13 @@ We can able to create a Bid in the application by providing some basic regarding
 
 | Column Name      | Data Type | Description                                                  | Mandatory | Unique |
 | ---------------- | --------- | ------------------------------------------------------------ | --------- | ------ |
-| Project Code     | String    | Unique project ID assigned to a project you are currently working on. <br />**Note:** Each furniture row in the sheet should have project code value.  | False      | False  |
+| Project Code     | String    | Unique project ID assigned to a project you are currently working on. <br />**Note:** Each room row in the sheet should have project code value.  | False      | False  |
 | Tower            | String    | Tower details where the room is located.                     | Fasle      | False |      
 | Floor            | String    | Floor Number for the room.                                   | Fasle      | False | 
 | Room Type        | String    | Room type details for the room                               | Fasle      | False |  
+| Room No          | String    | Room No details for the room.                                | Fasle      | True  |
+
+
 
 > ***Note:*** *In BLMP application, If a furniture, room type or room created or imported to a project it will associate with that project only. This furniture, room type or room will not be accessible from other project in the application. Though, User have access to multiple project in the application.*
 
