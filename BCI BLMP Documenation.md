@@ -691,7 +691,7 @@ We can able to create a Bid in the application by providing some basic regarding
 >
 >   > Let us assume we have Item A of 15 quantity in inventory. To reduce 5 quantity from inventory -5 (minus five) should be given as Quantity. If you like to increase the inventory by 5, Then +5 (plus five) should be given as input in Quantity field.
 
-![Inventory Adjustment Form](/home/sankar/Documents/Office/BCIDocumentation/BCI-Documentation/Images/InventoryAdjustmentForm.png)
+![Inventory Adjustment Form](Images/InventoryAdjustmentForm.png)
 
 *Image 34: Inventory Adjustment form.*
 
