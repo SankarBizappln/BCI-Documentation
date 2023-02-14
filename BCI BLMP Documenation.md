@@ -384,6 +384,13 @@ We can able to create a Bid in the application by providing some basic regarding
 
 
 
+##### Project Details
+
+##### Hotel Details
+
+
+
+
 #### Warehouse Module
 
 ​		Warehouse module in BLMP application is used to manage various operations performed in within warehouse and reports which helps to maintain the inventory furnitures which moves in and out of warehouse. This module have various features like Picking, Pulling, Exception, Inventory, Floor wise shortage and Room wise shortage reports. We have covered these features in detail in this section. 
@@ -478,6 +485,39 @@ We can able to create a Bid in the application by providing some basic regarding
 ​		In picking process we have also given two other options, Option to mark a pick-list as *Handover These Item While On-Site Receiving* and option pick replacement item from inventory when replacement damage is reported at On-Site process. We discuss the Handover process in details under [Handover](#handover-process) section and We discuss the on-site replacement damage further in [Damage Management](#damage-management) section.
 
 ​		Once the picking form is field with needed *Pick Qty*, the form can be submitted which in turn reduces the inventory level based on given *Pick Qty* in respective furniture and warehouse accordingly to make to no item is double picked (i.e., Picking same item more than once) during the picking process. Now this pick-list will be available for pulling in [Pulling](#pulling) process.  
+
+​		For Changing the Design for single room Click on *COD* Button on Pick form Report which is shown in *Image 32-1*.
+
+![COD Button on Pick format report](Images/Pickscod.png)
+*Image 32-1 : COD Button on Pick format report*
+
+​		After Clicking on *COD* Button,A new form will get loaded which will looks as shown in *Image 32-2*.Fill all the Details such as Process.Furniture,Name of Furniture and reason.After entering all the details click on submit button.These details will get uploaded report.
+
+![COD Report](Images/Pickcodreport.png)
+*Image 32-2 : COD Report*
+
+​		For Changing the Design for multiple room,Select records that design need to be changed,Then Click on *Bulk COD* Button on Pick form Report which is shown in *Image 32-3*.
+
+![Bulk COD Button on Pick format report](Images/Pickbcod.png)
+*Image 32-3 :Bulk COD Button on Pick format report*
+
+​		After Clicking on *Bulk COD* Button,A new form will get loaded which will looks as shown in *Image 32-4*.Fill all the Details such as Room type,Name of Furniture adn adjustmnet type.After entering all the details click on submit button.These details will get uploaded report.
+
+![Bulk COD Report](Images/Pickbulkcod.png)
+*Image 32-4 :Bulk COD Report*
+
+​		You can also view Bulk updated COD Report in Bulk Room COD Section in the below mentioned *Image32-5*.
+
+![Bulk COD Report](Images/Bulkshow.png)
+*Image 32-5 :Bulk COD Report*
+
+**Picked**
+
+​		For Unpicking Furniture a single room,click on *unpick furniture* button shown in *Image 32-4*.
+
+​		After Clicking on *unpick furniture* , a new dialogue box will appear,as shown in *Image 32-5*,Fill all the details such as Room Number,Select furniture and unpicked Qty.After entering all the details click on Submit button.After that these added changes will get reflected into the project.
+
+​		You can also view unpicked furniture report in Unpick furniture as shown in *Image 32-6*.
 
 ##### Pulling
 
@@ -714,8 +754,3 @@ We will discuss regarding the customer portal module in details under [Customer 
 > * *Please check for invite mail in Spam and Trash mail too.*
 > * Invalid email ID.
 > * Adding the user may fail when maximum number purchased user license have reached.
-
-#### Customer Portal
-In Customer Portal, they have view access for Inventory, Delivery Note, Receiving Report, damage item and [Floor Wise Shortage](#floor-wise-shortage)
- , [Room Wise Shortage](#room-wise-shortage).
-![image](https://user-images.githubusercontent.com/124581618/218694762-4d511bb4-d2eb-4382-a776-757fae2a45fa.png)
