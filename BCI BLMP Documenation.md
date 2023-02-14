@@ -228,7 +228,15 @@ We can able to create a Bid in the application by providing some basic regarding
 
 **Tower**
 
-​		Tower Report contains details of tower that are present in the project.It contains details such as Tower name and Description.Also in this tower report you can manually add each tower details by selecting *+Add tower* button which is higlited in below mentioned *Image 21-g* .After selection add tower option , a small dialogue box appears will looks as shown in *Image 21-h*,where you can enter the  details of the tower which you are going create.After entering all details click on submit button.Added tower details will get uploaded in Tower report.
+​		Tower Report contains details of tower that are present in the project.It contains details such as Tower name and Description.Also in this tower report you can manually add each tower details by selecting *+Add tower* button which is higlited in below mentioned *Image 21-g* .
+
+![Tower report](Images/Tower.png)
+*Image 21-g:Tower Report*
+
+​		After selection add tower option , a small dialogue box appears will looks as shown in *Image 21-h*,where you can enter the  details of the tower which you are going create.After entering all details click on submit button.Added tower details will get uploaded in Tower report.
+
+![Add Tower report](Images/TowerAddItems.png)
+*Image 21-h:Add Tower Report*
 
 **Floor**
 
