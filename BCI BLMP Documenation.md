@@ -557,7 +557,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		In the pulling process also it is possible to mark a picking as *Handover These Item While On-Site Receiving* though this option was not checked during the picking process. Pulling form will also have fields to upload images and files, which will be useful to attach image furniture they pulled from warehouse and any documents related to pulling process in the pull-sheet it self if needed.
 
-##### Exception
+##### Exceptions
 
 **Damage Report**
 
