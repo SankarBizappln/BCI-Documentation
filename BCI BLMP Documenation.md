@@ -436,7 +436,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 *Image 26: Receive DN Page.*
 
-![ReceiveDNform](Images/ReceiveDNform.png)
+![ReceiveDNform](Images/DNedit.png)
 
 *Image 27: Receive DN form.*
 
