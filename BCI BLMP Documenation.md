@@ -476,7 +476,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | Warehouse Location        | List out warehouse locations added while receiving the furnitures into warehouse in [Receiving](#receiving) process. |
 *Table 3: Furnitures sub-form field description in picking process.*
 
-![Room Selection in Picking process](Images/PickingRoomSelection.png)
+![Room Selection in Picking process](Images/BulkPickButton.png)
 *Image 31: Picking room to be picked.*
 
 ![PickingForm](Images/PickingForm.png)
