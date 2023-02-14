@@ -25,7 +25,7 @@
    2. [Receiving](#receiving)
    3. [Picking](#picking)
    4. [Pulling](#pulling)
-   5. [Exceptions](#Exceptions)
+   5. [Exceptions](#exceptions)
    6. [Floor Wise Shortage](#floor-wise-shortage)
    7. [Room Wise Shortage](#room-wise-shortage)
    8. [Inventory](#inventory)
