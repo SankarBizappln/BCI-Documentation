@@ -571,7 +571,7 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Report Damge Form](Images/DamageForm.png)
 *Image 34-2 : Report Damge Form*
 
-​		After Creating Damage record,For Updating *Resolving Action*, Click edit on the Record you want update Resolving Action.You can See *Resolving Action* field in Damage form as shown in *Image 34-3*.Select any one option from *Repair,Resolve,Repair & Resolve*. if Resolve action type is Replace, after the creation of Delivery Note and Receive DN,the item Qty will get reverted.
+​		After Creating Damage record,For Updating *Resolving Action*, Click edit on the Record you want update Resolving Action.You can See *Resolving Action* field in Damage form as shown in *Image 34-3*.Select any one option from *Repair,Resolve,Repair & Resolve*. if Resolve action type is Replace,once after the creation of Delivery Note and Receive DN for replacements,the item Qty will get reverted.
 
 ![Resolve Action](Images/DamageEditView.png)
 *Image 34-3 : Resolve Action*
