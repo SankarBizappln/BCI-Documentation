@@ -613,7 +613,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | Pulled                                           | Quantity of furnitures already pulled in [Pulling](#pulling) process and available for On-Site Receiving and Installation. |
 | Damaged                                          | Quantity of furnitures reported as damage in warehouse for various reasons. |
 | Inventory Qty<br />(On Hand)                     | Quantity of furnitures currently available in inventory and ready for picking from in [Picking](#picking) process. |
-| Floor: \<floor_number><br />Tower: \<tower_name> | This columns will show shortage quantity in given floor and tower. <br />If there is any shortage, the shortage count will be shown in cell marked as red. |
+| Floor: \<floor_number><br />Tower: \<tower_name> | This columns will show After on hand Qty,Need Qty,Picked Qty,Onsite Damaged Qty,Onsite Resolve Qty,Needed/Picked Qty and Shortage Qty. <br />If there is any shortage, the shortage count will be shown in cell marked as red. |
 | Required Qty                                     | Actual needed quantity of the given furniture in a project.  |
 | Total Shortage                                   | Remaining quantity of furniture needed to fulfill all floors in the project. |
 *Table 5: Floor Wise Shortage report column description.*
