@@ -411,13 +411,19 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		Receiving module is use to receive furnitures into warehouse in form of Deliver Notes (DN). A delivery can be created  in receiving in order to receive those item into receive those item into warehouse inventory. You can start the receiving process by creating a DN from *Warehouse Module &#129042; Receiving &#129042; Click on Create DN* as shown in the *Image 24*, Once the button is click form shown in *Image 25* will be opened to collect information regarding DN.
 
-![ReceivingPageDNPage](Images/ReceivingPageDNPage.png)
+​		For Creating a DN for a Replacement Item,Click on *Replacement* in Product Sub-form shown in the *Image 25-1*. 
+
+![ReceivingPageDNPage](Images/CreateDN.png)
 
 *Image 24: Receiving Page - Delivery Note List View.*
 
-![DeliverNoteForm](Images/DeliverNoteForm.png)
+![DeliverNoteForm](Images/CreateDN1.png)
 
 *Image 25: DN Creation Form.*
+
+![Replacement DN Field](Images/CreateDNReport.png)
+
+*Image 25-1 : Replacement Field in DN Creation form *
 
 **Create DN:**
 
