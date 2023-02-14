@@ -444,6 +444,15 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		In *Receive DN* from shown in *Image 27* is similar to *DN form*. In the *Item to be received* sub-form it will show Expected furniture quantity added in *Create DN* form, Apart from this you can find two other field called *Receive Qty* and *Warehouse Location*.  The *Receive Qty* field hold quantity of the furniture received to warehouse over *Expected Qty*. The *Warehouse Location* field is to store details where the received product is stored with in the Warehouse. This details will later be usefully during [Pulling](#pulling) process and also shown in [Inventory](#inventory). Once the *Receive Qty* and *Warehouse Location* is given you can upload some image and files relevant to this receiving process and click on submit, System will then increase the received quantity in respective warehouse inventory. 
 
+​		For Editing Qty in any Deliver Note,Fisrt you have to reduce the *Receive Qty* (Shown in *Image 27 -1)* in Receive DN.Also Note that if you want to reduce 5 qty,that overall available qty must be greater than (or) equal to reducing Qty.Then Only we can able to reduce Qty in Receive DN.After chaning Qty in Receive DN ,you have change the *Expected Qty* (Shown in *image 27-2*) in Delivery Note Report.
+
+![Receive DN](Images/ReceiveDN.png)
+*Image 27-1 : Receive DN - Receive Qty*
+
+![Create DN](Images/edn.png)
+*Image 27-2 : Create DN - Expected Qty*
+
+
 ##### Picking
 
 ​		Picking process can be used by Project Managers or Project Coordinator to create a pick-list for the room they have planned to install. In our system we have option to pick multiple rooms at a time. They have start the picking by selecting one or more rooms to be picked from *Warehouse Module &rarr; Picking &rarr; Pick* as shown in *Image 31* and click on *Bulk Pick* button which will open a pre-populated form as shown *Image 32*. This *Bulk Pick Form* will having some basic information regarding picking process like Unique ID, Picking Date and Time, Floors, Rooms, Room Types and Warehouse in which is picking is done. The *Furniture* sub-from will have list of furnitures needed to be picked for selected room according to room types you have import in [Project Wizard](#project-wizard), This sub-from also shown and collect information which are listed in following *Table 3*.
