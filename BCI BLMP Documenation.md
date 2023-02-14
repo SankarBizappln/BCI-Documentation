@@ -557,6 +557,36 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		In the pulling process also it is possible to mark a picking as *Handover These Item While On-Site Receiving* though this option was not checked during the picking process. Pulling form will also have fields to upload images and files, which will be useful to attach image furniture they pulled from warehouse and any documents related to pulling process in the pull-sheet it self if needed.
 
+##### Exception
+
+**Damage Report**
+
+​		Damage report contains the details Items that are damaged in the ware house.i.e After Receiveing from the Debit Note.To add Damage Record click on *+Report Damage* button on Damage Report shown in the *Image 34-1*.
+
+![Report Damge Button](Images/DamageButton)
+*Image 34-1 : Report Damge Button on Damage Report*
+
+​		After Clicking on Report Damage Button,a form will get loaded will looks as Shown in *Image 34-2*.Fill all the necessary details such as Furniture,Warehouse,Qty and Damage Stage.After entering all the details click on submit button.Record will get added into *Damage Report*.
+
+![Report Damge Form](Images/DamageForm)
+*Image 34-2 : Report Damge Form*
+
+​		After Creating Damage record,For Updating *Resolving Action*, Click edit on the Record you want update Resolving Action.You can See *Resolving Action* field in Damage form as shown in *Image 34-3*.Select any one option from *Repair,Resolve,Repair & Resolve*. if Resolve action type is Replace, after the creation of Delivery Note and Receive DN,the item Qty will get reverted.
+
+![Resolve Action](Images/DamageEditView)
+*Image 34-3 : Resolve Action*
+
+​		For Repairing a Particular Item,Click on *Edit Repair* Button on Damage report as shown in *Image 34-4*.After clicking on Edit Repair a small pop-up will appear as shown in *Image 34-5*.Fill *Repaired Qty*.After clicking on Submit button,Item will get repaired and will get changed in the project.
+
+
+![Edit Repair](Images/EditRepair)
+*Image 34-4 : Edit Repair Button*
+
+![Edit Repair Form](Images/EditRepairForm)
+*Image 34-5 : Edit Repair form*
+
+
+
 ##### Floor Wise Shortage
 
 ​		Shortage report show shortage of furnitures stock needed to fulfill furnitures needed to be installed in floor based on *Actual Received* quantity to the warehouse via deliver notes in [Receiving](#receiving) process. This report takes he current actual received quantity from the [Inventory](#inventory) and distribute it throughout the floor created a project. You can access this report from *Warehouse Module &rarr; Floor Wise Shortage*. As shown in *Image 28*, Will list out information like Required Quantity, Actual Received Quantity, Total Shortage Quantity, etc. 
