@@ -453,6 +453,13 @@ We can able to create a Bid in the application by providing some basic regarding
 *Image 27-2 : Create DN - Expected Qty*
 
 
+**Receive DN Line Items**
+
+​		Receive DN Line Items Report Contains the details of Furniture items that are received for all Delivery notes.Receive DN Line Items Report loosk as shown in the *Image 27-3*.
+
+![Receive DN Line Items](Images/DnLine.png)
+*Image 27-3 : Receive DN Line Items*
+
 ##### Picking
 
 ​		Picking process can be used by Project Managers or Project Coordinator to create a pick-list for the room they have planned to install. In our system we have option to pick multiple rooms at a time. They have start the picking by selecting one or more rooms to be picked from *Warehouse Module &rarr; Picking &rarr; Pick* as shown in *Image 31* and click on *Bulk Pick* button which will open a pre-populated form as shown *Image 32*. This *Bulk Pick Form* will having some basic information regarding picking process like Unique ID, Picking Date and Time, Floors, Rooms, Room Types and Warehouse in which is picking is done. The *Furniture* sub-from will have list of furnitures needed to be picked for selected room according to room types you have import in [Project Wizard](#project-wizard), This sub-from also shown and collect information which are listed in following *Table 3*.
