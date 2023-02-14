@@ -618,7 +618,7 @@ We can able to create a Bid in the application by providing some basic regarding
 | Total Shortage                                   | Remaining quantity of furniture needed to fulfill all floors in the project. |
 *Table 5: Floor Wise Shortage report column description.*
 
-![FloorWiseShortageReport](Images/FloorWiseShortageReport.png)*Image 28: Room Wise Shortage Report.*
+![FloorWiseShortageReport](Images/OnDemand.png)*Image 28: Room Wise Shortage Report.*
 
 ​		This report have option to export the report in CSV format as shown in *Image 29*. This CSV data can be saved as CSV file and later opened in any spread sheet processing software for better readability. This report also have feature to apply filters to limit the report generation specific to selected Floors and Furnitures if need. 
 
