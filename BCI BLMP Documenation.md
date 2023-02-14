@@ -264,22 +264,22 @@ We can able to create a Bid in the application by providing some basic regarding
 
  ​     For Changing the design of room type for single room type,click on the *COD* button as mentioned in the below *image 21-m* .
  
- ![Changes for Single COD](Images/SingleCOD.png)
+ ![Changes for Single COD](Images/RoomTypescod.png)
    *Image 21-m:Changes for Single COD Report*
  
  ​     After selection the COD button, a new form will get loaded as shown in *Image 21-n* for chagind the design for Room type.There are two process for changing the design of the room , they are *Adjustment Existing Furniture* and *Add new furniture*, after selecting the process fill all the necessary fileds such as furniture,No of Furniture and adjustment etc.After entering all the details click on submit button.Room type design will be changed for that particular room type.
  
- ![Single COD Report ](Images/RoomTypescod.png)
+ ![Single COD Report ](Images/SingleCOD.png)
   *Image 21-n:Single COD Report*
  
  ​     For Changing the design of room type for *Multiple Room Type*,Select all Room type records that you want to change design,after selecting the required room type,Click on the *Bulk COD* button which is mentioned in the *image 21-o*  below.After clicking on *Bulk COD* button,a new form will get loaded will look as shown in the image.
  
- ![Changes for Bulk COD](Images/BulkCOD.png)
+ ![Changes for Bulk COD](Images/RoomTypemcod.png)
    *Image 21-o:Changes for Bulk COD Report*
    
 ​     There are two process for changing the design of the room as shown in *image 21-p*, they are *Adjustment Existing Furniture* and *Add new furniture*, after selecting the process fill all the necessary fileds such as furniture,No of Furniture and adjustment etc.After entering all the details click on submit button.Room type design will be changed for that particular room type.
 
- ![Bulk COD Report ](Images/RoomTypemcod.png)
+ ![Bulk COD Report ](Images/BulkCOD.png)
   *Image 21-p:Bulk COD Report*
 
 ​     Room Type Records Shows the detials of furniture details for a particular room type,For viewing only furniture details you can check *Room type - Furniture* Report which shown in the *image 21-q* below.
