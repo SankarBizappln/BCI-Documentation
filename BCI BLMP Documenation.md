@@ -215,7 +215,16 @@ We can able to create a Bid in the application by providing some basic regarding
 
 **Furniture**
 
-​		Furniture report contains details of furniture present in the current project.Furniture form is also used for uploading each furniture manually.For manully adding each furniture select *+Add Furniture* Button on Furniture report which is highlited in *Image 21-e* below.After selection Add Furniture button a form will be loaded will looks as shown in *Image 21-f*.Add Necesarry details of furniture such as Furniture,Item Code,Project Qty and Storeage type, After adding those details click on submit button.Then the furniture details will be adde in Furniture Report.
+​		Furniture report contains details of furniture present in the current project.Furniture form is also used for uploading each furniture manually.For manully adding each furniture select *+Add Furniture* Button on Furniture report which is highlited in *Image 21-e* below.
+
+![Furniture](Images/Furniture.png)
+*Image 21-e:Furniture Report*
+
+​		After selection Add Furniture button a form will be loaded will looks as shown in *Image 21-f*.Add Necesarry details of furniture such as Furniture,Item Code,Project Qty and Storeage type, After adding those details click on submit button.Then the furniture details will be adde in Furniture Report.
+
+![Add Furniture](Images/FurnitureAddItems.png)
+*Image 21-f:Furniture Report*
+
 
 **Tower**
 
