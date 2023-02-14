@@ -240,7 +240,15 @@ We can able to create a Bid in the application by providing some basic regarding
 
 **Floor**
 
-​		Floor report contains the details of Floors that are present in the Project.Floor report is also used to uploading each floor data manually.For each adding each floor to the report,Click on *+Add Floor* button on the floor report as mentioned in the image below.After selecting Add floor button,a small dialogue box will appear on screen,on that form add the details of floor that you are going to create.after entering all the details click on submit button.Added floor details will get reflected on Floor report.
+​		Floor report contains the details of Floors that are present in the Project.Floor report is also used to uploading each floor data manually.For each adding each floor to the report,Click on *+Add Floor* button on the floor report as mentioned in the *image 21-i*  below.
+
+![Floor report](Images/Floor.png)
+*Image 21-i:Floor Report*
+
+​		After selecting Add floor button,a small dialogue box will appear on *image 21-j* ,on that form add the details of floor that you are going to create.after entering all the details click on submit button.Added floor details will get reflected on Floor report.
+
+![Add Floor report](Images/FloorAdd.png)
+*Image 21-j:Add Floor Report*
 
 **Room Type**
 
