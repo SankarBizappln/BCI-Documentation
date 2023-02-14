@@ -294,11 +294,31 @@ We can able to create a Bid in the application by providing some basic regarding
 
 **Rooms**
 
-​		Rooms Report contains the details of Rooms that are present in Project.For Adding each room manually click on *+Add Room* Button on the report as mentioned in the image below.Aftert selecting add room button,a new form will get loaded which will look as shown in the image.Please fill all the details such as Buliding,Room type,Floor details,Room Number.After entering all the details click on submit button.Then this rooms will get added in Rooms Report.
+​		Rooms Report contains the details of Rooms that are present in Project.For Adding each room manually click on *+Add Room* Button on the report as mentioned in the *image 21-1* below.
 
-​		For Changing the room type for multiple record,Select the records that room type need to changed,After selecting required records click on *Change room type* button as mentioned in the image below.After clicking on *change room type* button,a new form will get loaded will look as shown in the image.Enter details of Adjust room type and click on submit button.After Clicking on submit button the changes will be made for all the selected rooms.
+![Add Room Button ](Images/AddRoom.png)
+ *Image 21-1:Add Room Button*
 
-​		For Unpicking rooms for Mulitple records,Select the records that needs to be unpicked,After selecting required records click on *Unpick Room* button as mentioned in the image below.After clicking on *Unpick Room* button.All Furniture in the room will be unpicked for the selected records.
+​		Aftert selecting add room button,a new form will get loaded which will look as shown in the *image 21-2* .Please fill all the details such as Buliding,Room type,Floor details,Room Number.After entering all the details click on submit button.Then this rooms will get added in Rooms Report.
+
+![Add Room Report ](Images/AddRoomReport.png)
+ *Image 21-2:Add Room Report*
+
+​		For Changing the room type for multiple record,Select the records that room type need to changed,After selecting required records click on *Change room type* button as mentioned in the *image 21-3* below.
+
+![Change Room Type Button ](Images/ChangeRoomType.png)
+ *Image 21-3: Change Room Type Button *
+
+​		After clicking on *change room type* button,a new form will get loaded will look as shown in the *image 21-4* .Enter details of Adjust room type and click on submit button.After Clicking on submit button the changes will be made for all the selected rooms.
+
+![Change Room Type Report ](Images/ChangeRoomTypeReport.png)
+ *Image 21-4: Change Room Type Report *
+
+
+​		For Unpicking rooms for Mulitple records,Select the records that needs to be unpicked,After selecting required records click on *Unpick Room* button as mentioned in the *image 21-5* below.After clicking on *Unpick Room* button.All Furniture in the room will be unpicked for the selected records.
+
+![Unpick Room Button ](Images/UnpickRoom.png)
+ *Image 21-5: Unpick Room Button*
       
 ##### Project Wizard
 
