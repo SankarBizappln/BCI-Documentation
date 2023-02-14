@@ -586,6 +586,20 @@ We can able to create a Bid in the application by providing some basic regarding
 *Image 34-5 : Edit Repair form*
 
 
+**Resolve Damages**
+
+​		Damages which get resolved either by Repair / Replace,All those records details will be displayed in the Resolve Damage Report.
+
+**Onsite Damage**
+
+​		Onsite Damage Report shows the details of Items that are damaged during the onsite receiving,Instalation.You can Report Onsite Damages on Onsite Receiving,Installation and Walkthrough as shown in the *Image 34-6*.
+
+![Onsite Damage Reporting Place](Images/OnsiteDamage.png)
+*Image 34-6 : Onsite Damage Reporting Place*
+
+**Onsite Missing Items**
+
+​		Onsite Missing Items contains the details of Items that are Missing either will Sending for Installation or During the Installation time period. 
 
 ##### Floor Wise Shortage
 
