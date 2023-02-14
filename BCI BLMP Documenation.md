@@ -716,3 +716,6 @@ We will discuss regarding the customer portal module in details under [Customer 
 > * Adding the user may fail when maximum number purchased user license have reached.
 
 #### Customer Portal
+In Customer Portal, they have view access for Inventory, Delivery Note, Receiving Report, damage item and [Floor Wise Shortage](#floor-wise-shortage)
+ , [Room Wise Shortage](#room-wise-shortage).
+![image](https://user-images.githubusercontent.com/124581618/218694762-4d511bb4-d2eb-4382-a776-757fae2a45fa.png)
