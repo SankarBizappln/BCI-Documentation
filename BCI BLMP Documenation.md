@@ -714,3 +714,5 @@ We will discuss regarding the customer portal module in details under [Customer 
 > * *Please check for invite mail in Spam and Trash mail too.*
 > * Invalid email ID.
 > * Adding the user may fail when maximum number purchased user license have reached.
+
+#### Customer Portal
