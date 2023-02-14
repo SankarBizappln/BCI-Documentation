@@ -532,11 +532,11 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		Pulling process can be used by *Warehouse Manager* and *Warehouse Staff* to pull needful items from the warehouse physically from warehouse based on pick-list created by *Project Manager* or *Project Coordinator* in [Picking](#picking) process. User can access the Pull-Sheets from *Warehouse Module &rarr; Pulling &rarr; Create Pull-Sheet* list will be opened as shown in *Image 33*. All pick-lists created picking process will be listed under *Create Pull-Sheet* tab, User a select a pick-list and click on *Edit* start the pulling process, Once the *Edit* option is clicked a pre-populated form with furnitures picked in *Picking Process* will be listed with respective pick quantity given in previous stage will be opened as shown in *Image 34*.
 
-##### ![PullsheetList](/home/sankar/Documents/Office/BCIDocumentation/BCI-Documentation/Images/PullsheetList.png)
+##### ![PullsheetList](Images/PullsheetList.png)
 
 *Image 33: List of Pick-Lists created in Picking Process.*
 
-![PullSheetForm](/home/sankar/Documents/Office/BCIDocumentation/BCI-Documentation/Images/PullSheetForm.png)
+![PullSheetForm](Images/PullSheetForm.png)
 
 *Image 34: Pull-sheet Form.*
 
