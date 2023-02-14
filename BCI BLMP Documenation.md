@@ -410,8 +410,7 @@ We can able to create a Bid in the application by providing some basic regarding
 ##### Receiving
 
 ​		Receiving module is use to receive furnitures into warehouse in form of Deliver Notes (DN). A delivery can be created  in receiving in order to receive those item into receive those item into warehouse inventory. You can start the receiving process by creating a DN from *Warehouse Module &#129042; Receiving &#129042; Click on Create DN* as shown in the *Image 24*, Once the button is click form shown in *Image 25* will be opened to collect information regarding DN.
-
-​		For Creating a DN for a Replacement Item,Click on *Replacement* in Product Sub-form shown in the *Image 25-1*. 
+ 
 
 ![ReceivingPageDNPage](Images/CreateDN.png)
 
@@ -429,9 +428,11 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		DN from will collect informations like DN number, Expected Deliver Date, Warehouse and Products list. Warehouse field in the DN allows the system to know to which warehouse these item should be received. We have also given another two options in the DN form, those are *Receive On Create DN* and *Receive Damage Replacement*. If *Receive On Create DN* check box is ticked during DN creation, the receiving of the DN will also be completed at same time. If *DN Creation Form* is submitted without selecting the *Receive On Create DN* this DN will be available for receiving later in Receive DN tab. If *Receive Damage Replacement* check box is ticked, system will allow to receive replacements for damage reported in *Damage Management* or *Exceptions*.
 
-​	In *Products* sub-from you can select furniture you expecting to receive in the DN. The *Furniture* field will list all furnitures you have imported / created in [Project Wizard](#project-wizard). If the furniture you would like to adding is not listed, the furniture should be added from [*Project Wizard*](#project-wizard) or [*Hotel Details*](#hotel-details) page first. 		
+​	In *Products* sub-from you can select furniture you expecting to receive in the DN. The *Furniture* field will list all furnitures you have imported / created in [Project Wizard](#project-wizard). If the furniture you would like to adding is not listed, the furniture should be added from [*Project Wizard*](#project-wizard) or [*Hotel Details*](#hotel-details) page first.
 
-![ReceiveDNPage](Images/ReceiveDNPage.png)
+​		For Creating a DN for a Replacement Item,Click on *Replacement* in Product Sub-form shown in the *Image 25-1*.
+
+![ReceiveDNPage](Images/EditDN.png)
 
 *Image 26: Receive DN Page.*
 
