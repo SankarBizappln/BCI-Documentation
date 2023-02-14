@@ -384,13 +384,6 @@ We can able to create a Bid in the application by providing some basic regarding
 
 
 
-##### Project Details
-
-##### Hotel Details
-
-
-
-
 #### Warehouse Module
 
 ​		Warehouse module in BLMP application is used to manage various operations performed in within warehouse and reports which helps to maintain the inventory furnitures which moves in and out of warehouse. This module have various features like Picking, Pulling, Exception, Inventory, Floor wise shortage and Room wise shortage reports. We have covered these features in detail in this section. 
