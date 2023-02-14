@@ -252,16 +252,45 @@ We can able to create a Bid in the application by providing some basic regarding
 
 **Room Type**
 
-​		This report contains the details of Room type details.you can add Room type record manually by Selecting *+Add Room Type* button on the Room type report as mentioned in the image below.A new form will get loaded for adding Room Type record.Enter all necessary details such as Room Type,description,Furniture and Quantity.After entering all the details click on submit button,After submitting the record added room type details will get reflected on Room type report. 
+​		This report contains the details of Room type details.you can add Room type record manually by Selecting *+Add Room Type* button on the Room type report as mentioned in the *image 21-k*  below.
 
- ​     For Changing the design of room type for single room type,click on the *COD* button as mentioned in the below image.After selection the COD button, a new form will get loaded for chagind the design for Room type.There are two process for changing the design of the room , they are *Adjustment Existing Furniture* and *Add new furniture*, after selecting the process fill all the necessary fileds such as furniture,No of Furniture and adjustment etc.After entering all the details click on submit button.Room type design will be changed for that particular room type.
+![Room Type report](Images/RoomType.png)
+*Image 21-k:Room Type Report*
+
+​		A new form will get loaded as shown in *image 21-l* for adding Room Type record.Enter all necessary details such as Room Type,description,Furniture and Quantity.After entering all the details click on submit button,After submitting the record added room type details will get reflected on Room type report. 
+
+![Room Type Add report](Images/RoomTypeAdd.png)
+*Image 21-l:Room Type Add Report*
+
+ ​     For Changing the design of room type for single room type,click on the *COD* button as mentioned in the below *image 21-m* .
  
- ​     For Changing the design of room type for *Multiple Room Type*,Select all Room type records that you want to change design,after selecting the required room type,Click on the *Bulk COD* button which is mentioned in the image below.After clicking on *Bulk COD* button,a new form will get loaded will look as shown in the image.
-​     There are two process for changing the design of the room , they are *Adjustment Existing Furniture* and *Add new furniture*, after selecting the process fill all the necessary fileds such as furniture,No of Furniture and adjustment etc.After entering all the details click on submit button.Room type design will be changed for that particular room type.
+ ![Changes for Single COD](Images/SingleCOD.png)
+   *Image 21-m:Changes for Single COD Report*
+ 
+ ​     After selection the COD button, a new form will get loaded as shown in *Image 21-n* for chagind the design for Room type.There are two process for changing the design of the room , they are *Adjustment Existing Furniture* and *Add new furniture*, after selecting the process fill all the necessary fileds such as furniture,No of Furniture and adjustment etc.After entering all the details click on submit button.Room type design will be changed for that particular room type.
+ 
+ ![Single COD Report ](Images/RoomTypescod.png)
+  *Image 21-n:Single COD Report*
+ 
+ ​     For Changing the design of room type for *Multiple Room Type*,Select all Room type records that you want to change design,after selecting the required room type,Click on the *Bulk COD* button which is mentioned in the *image 21-o*  below.After clicking on *Bulk COD* button,a new form will get loaded will look as shown in the image.
+ 
+ ![Changes for Bulk COD](Images/BulkCOD.png)
+   *Image 21-o:Changes for Bulk COD Report*
+   
+​     There are two process for changing the design of the room as shown in *image 21-p*, they are *Adjustment Existing Furniture* and *Add new furniture*, after selecting the process fill all the necessary fileds such as furniture,No of Furniture and adjustment etc.After entering all the details click on submit button.Room type design will be changed for that particular room type.
 
-​     Room Type Records Shows the detials of furniture details for a particular room type,For viewing only furniture details you can check *Room type - Furniture* Report which shown in the image below.
+ ![Bulk COD Report ](Images/RoomTypemcod.png)
+  *Image 21-p:Bulk COD Report*
 
-​     *Bulk Room Type COD* and *Room Type COD* items report are present in Report which is highlighted in image below.
+​     Room Type Records Shows the detials of furniture details for a particular room type,For viewing only furniture details you can check *Room type - Furniture* Report which shown in the *image 21-q* below.
+
+![Room Type Furniture Report Report ](Images/rr.png)
+  *Image 21-q:Room Type Furniture Report*
+
+​     *Bulk Room Type COD* and *Room Type COD* items report are present in Report which is highlighted in *image 21-r* below.
+
+![Single & Bulk COD Report ](Images/cod.png)
+  *Image 21-r:Single & Bulk COD Report*
 
 **Rooms**
 
