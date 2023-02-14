@@ -508,7 +508,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		You can also view Bulk updated COD Report in Bulk Room COD Section in the below mentioned *Image32-5*.
 
-![Bulk COD Report](Images/Bulkshow.png)
+![Bulk COD Report](Images/bs1.png)
 *Image 32-5 :Bulk COD Report*
 
 **Picked**
