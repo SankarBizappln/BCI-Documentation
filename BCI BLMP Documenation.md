@@ -22,7 +22,7 @@
    6. [Hotel Details](#hotel-details)
 5. [Warehouse Module](#warehouse-module)
    1. [Warehouse Locations](#warehouse-locations)
-   2. [Receiving](#Receiving)
+   2. [Receiving](#receiving)
    3. [Picking](#picking)
    4. [Pulling](#pulling)
    5. [Exceptions](#Exceptions)
