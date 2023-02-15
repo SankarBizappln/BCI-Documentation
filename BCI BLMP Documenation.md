@@ -484,12 +484,12 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		In picking process we have also given four options, Option to mark a pick-list as *Handover These Item While On-Site Receiving,Damage Replacement,Missing Items,Pick ALl* as shown in *Image 31-1*.Please select any one of these as per your preference.when *Pick All* check box is ticked,It will pick all remaining Qty required for that project.
 
-![Check Box in Bulk Pick Form]
+![Check Box in Bulk Pick Form](Images/PickCheck.png)
 *Image 32-1 :Check Box in Bulk Pick Form *
 
 ​		After entering all the details in Bulk Pick Form,You have to Tick the check box as shown in *Image 31-2*,So that all enterd details will get reflected in [Picked](#picked).
 
-![Verification Check Box]
+![Verification Check Box](Images/PickVal.png)
 *Image 31-2 : Vaerification Check box*
 
 ​		Once the picking form is field with needed *Pick Qty*, the form can be submitted which in turn reduces the inventory level based on given *Pick Qty* in respective furniture and warehouse accordingly to make to no item is double picked (i.e., Picking same item more than once) during the picking process. Now this pick-list will be available for pulling in [Pulling](#pulling) process.  
@@ -528,7 +528,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		For Unpicking all the items in a particular record, Click on Unpick button mentioned in the below *Image a*.After click on the button all the items will get unpicked.
 
-![Unpick]
+![Unpick](Images/unpick.png)
 *Image a : Unpick Button*
 
 ​		After Clicking on *unpick furniture* , a new dialogue box will appear,as shown in *Image 32-5*,Fill all the details such as Room Number,Select furniture and unpicked Qty.After entering all the details click on Submit button.After that these added changes will get reflected into the project.
@@ -572,12 +572,12 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		In Bulk Pick there are three check Boxes available that are *Hand Over These Items while On-site Receiving,Damage Replacement,Pull All*(as shown in *Image-b)*,Click the required check box.Pull All Check box will automatically fill *Qty Pulled* based on Total Qty Required.
 
-![Check Box for Pull]
+![Check Box for Pull](Images/PullVal.png)
 *Image b : Check Box for Pull*
 
 ​		After entering all the details for pulling,check the tick box shown in the *Image c*,You have click on Check box befor submitting,then only you changes will get submitted.
 
-![Validation in Pull]
+![Validation in Pull](Images/PullCheck.png)
 *Image c : Validation in Pull*
 
 ##### Exceptions
@@ -844,6 +844,12 @@ We can able to create a Bid in the application by providing some basic regarding
 **Resolved Damage**
 
 ​      Resolved Damage report contains the details of damaged Items that are resolved.Refer [Damage Report](#damage-report)
+
+##### Missing Item
+
+**Missing Items**
+
+​      Missing Item Report contains the details Items that are Missed during Installation,Onsite receive etc.
 
 #### Settings
 
