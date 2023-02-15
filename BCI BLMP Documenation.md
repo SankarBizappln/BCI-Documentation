@@ -833,7 +833,20 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      After Installation process,For walkthough rooms Click on *Walkthough* button shown in *Image 1*.A new form will get loaded will looks as shown in *Image 2*.Please Fill the *Walkthough Qty* filed as mentioned in *Image 3*.After entering wlakthough details fill all the madantory details such as name,signature and clcik on submit button.
 
-​      Walkthough report shows the details of Rooms that are wlakthoughed.You can also view line items based walk though report on *Walkthough Line Items* reprot mentioned in *Image 3*.
+![Walkthough Button](Images/wb.png)
+*Image 1: Walkthough Button*
+
+![Walkthough form](Images/wform.png)
+*Image 2: Walkthough form*
+
+![Walkthough Qty](Images/wqty.png)
+*Image 3: Walkthough Qty*
+
+
+​      Walkthough report shows the details of Rooms that are wlakthoughed.You can also view line items based walk though report on *Walkthough Line Items* reprot mentioned in *Image 4*.
+
+![Walkthough Line Items](Images/wline.png)
+*Image 4: Walkthough Line Items*
 
 
 ##### Damage Management
