@@ -519,7 +519,7 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Bulk COD Report](Images/bs1.png)
 *Image 32-5 :Bulk COD Report*
 
-**Picked**
+##### Picked
 
 ​		For Unpicking Furniture a single room,click on *unpick furniture* button shown in *Image 32-4*.
 
