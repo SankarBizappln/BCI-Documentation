@@ -526,15 +526,16 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Unpick Button in Picked Report](Images/unpickfur.png)
 *Image 32-4 : Unpick Button in Picked Report*
 
+​		After Clicking on *unpick furniture* , a new dialogue box will appear,as shown in *Image 32-5*,Fill all the details such as Room Number,Select furniture and unpicked Qty.After entering all the details click on Submit button.After that these added changes will get reflected into the project.
+
+![Unpick Furniture Report](Images/Unpickfurreport.png)
+*Image 32-5 : Unpick Furniture Report*
+
 ​		For Unpicking all the items in a particular record, Click on Unpick button mentioned in the below *Image a*.After click on the button all the items will get unpicked.
 
 ![Unpick](Images/unpick.png)
 *Image a : Unpick Button*
 
-​		After Clicking on *unpick furniture* , a new dialogue box will appear,as shown in *Image 32-5*,Fill all the details such as Room Number,Select furniture and unpicked Qty.After entering all the details click on Submit button.After that these added changes will get reflected into the project.
-
-![Unpick Furniture Report](Images/Unpickfurreport.png)
-*Image 32-5 : Unpick Furniture Report*
 
 ​		You can also view unpicked furniture report in Unpick furniture as shown in *Image 32-6*.
 
