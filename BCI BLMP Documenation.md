@@ -824,6 +824,16 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      Onsite Installation Report Contains the Details of Items received on on-site based on rooms.
 
+##### Onsite Installation Damage
+
+​      For Reporting Damage that occur during onsite installation damage click on *Damage Report* Button mentioned in *Image a*,and a new form will apprear as shown in *Image b*.Fill All the details and click on Submit Button. 
+
+![Onsite Installation Damage Button](Images/osib.png)
+*Image a : Onsite Installation Damage Button*
+
+![Onsite Installation Damage Form](Images/osif.png)
+*Image b: Onsite Installation Damage form*
+
 **Onsite FullFilled**
 
 ​      Onsite FullFilled contains the details of Install status of items based on received from on-site and room number.
