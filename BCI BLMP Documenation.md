@@ -807,6 +807,33 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      You can add Delivery/Install Qty in Installation Product sub-form as shown in *Image h*.There are tow check box present in onsite installtion master form as shown in *Image i*.If Deleiver All is checked *Deleivery Qty* Filed will automatically populated based on Qty Deliver Field.If Install All filed is checked *Install Qty* will be automatically populated based on *Qty to Install*.
 
+
+**Onsite Installation**
+
+​      Onsite Installation Report Contains the Details of Items received on on-site based on rooms.
+
+**Onsite FullFilled**
+
+​      Onsite FullFilled contains the details of Install status of items based on received from on-site and room number.
+
+
+**Rooms Fullfillment**
+
+​      Rooms Fullfillment Report show the details Install product status of Items based on rooms.We can also check Installation Staus and Progress of Installation for Rooms.
+
+**Installation Items**
+
+​      Installation Items report contains Details such as Required Qty,Picked Qty,Damaged Qty,On-Hand Qty,Qty to Install,Qty to Deleiver based on Items and rooms.
+
+
+###### Walkthough
+
+**Room Fullfillment**
+
+​      After Installation process,For walkthough rooms Click on *Walkthough* button shown in *Image 1*.A new form will get loaded will looks as shown in *Image 2*.Please Fill the *Walkthough Qty* filed as mentioned in *Image 3*.After entering wlakthough details fill all the madantory details such as name,signature and clcik on submit button.
+
+​      Walkthough report shows the details of Rooms that are wlakthoughed.You can also view line items based walk though report on *Walkthough Line Items* reprot mentioned in *Image 3*.
+
 #### Settings
 
 ##### Customers
