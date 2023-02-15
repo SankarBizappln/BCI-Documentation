@@ -31,10 +31,10 @@
    8. [Inventory](#inventory)
 6. [Installation](#installation)
    1. [On-Site Receiving](#on-site-receiving)
-   2. [Handover Process](#handover-process)
-   3. [Installation](#installation)
-   4. [Walkthough](#walkthrough)
-   5. [Damage Management](#damage-management)
+   2. [Installation](#installation)
+   3. [Walkthough](#walkthough)
+   4. [Damage Management](#damage-management)
+   5. [Missing Items](#missing-items)
 7. [Settings](#settings)
    1. [Customers](#customers)
    2. [Contacts](#contacts)
@@ -859,7 +859,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      Resolved Damage report contains the details of damaged Items that are resolved.Refer [Damage Report](#damage-report)
 
-##### Missing Item
+##### Missing Items
 
 **Missing Items**
 
