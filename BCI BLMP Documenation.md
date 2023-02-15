@@ -772,18 +772,18 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​        Onsite Receiveing Report contains the details that are [Pulled](#pulled) and Waiting for on-site Receiveing.To receive all Items that are pulled, click on edit option for the required record(*as shown in Image a*).After click on Edit a new Form will get loaded which will looks as shown in *Image b*.You can three check boxes present(which will looks as shown in *Image c*) in form they are *Handover These Item While On-Site Receiving,Damage Replacement,Receive All*.Click the necessary option.*Note* if Receive All Check box is Ticked,It will fill Receieved Qty for all the Items based on *Tota Picked Qty*.
 
-![Edit for On-site Receive]
+![Edit for On-site Receive](Images/osedit.png)
 *Image a: Edit for On-site Receive*
 
-![ Form for On-Site Receive]
+![ Form for On-Site Receive](Images/osform.png)
 *Image b : Form for On-Site Receive*
 
-![ Check Box on Report]
+![ Check Box on Report](Images/oscheck.png)
 *Image c :Check Box on Report*
 
 ​        After entering all details Check all the checkbox mentioned in *Image d*.You can only Submit the record only after ticking below two check boxes.
 
-![Validation Check Box]
+![Validation Check Box](Images/osval.png)
 *Image d:Validation Check Box*
 
 **Onsite Received**
