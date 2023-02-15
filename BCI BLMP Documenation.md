@@ -786,6 +786,10 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Validation Check Box](Images/osval.png)
 *Image d:Validation Check Box*
 
+##### Onsite Damage
+
+​        For Report Damaging happend during onsite receive,click on *Damage Report* button shown in *Image - e*.After clicking Damage report button, a new form will get loaded as shown in *Image f*,Fill all the necessary details for Damage Details and click on submit button.You can view ![Damage Management](#damage-management)
+
 **Onsite Received**
 
 ​       Onsite Received report contains the details report that are Received from [Onsite Receiving](#onsite-receiving)
