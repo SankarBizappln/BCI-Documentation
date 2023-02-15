@@ -847,6 +847,8 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      Rooms Fullfillment Report show the details Install product status of Items based on rooms.We can also check Installation Staus and Progress of Installation for Rooms.
 
+#### Room Damage
+
 ​      To Report Damage during Room Fulfilment Clcik on *Damage Report* Button as shown in *Image c*,and follow [Onsite Installation Damage](#onsite-installation-damage) Procedure.
 
 ![Damage Report Button on Room Fullfillment](Images/roomdam.png)
@@ -875,9 +877,16 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      Walkthough report shows the details of Rooms that are wlakthoughed.You can also view line items based walk though report on *Walkthough Line Items* reprot mentioned in *Image 4*.
 
+
 ![Walkthough Line Items](Images/wline.png)
 *Image 4: Walkthough Line Items*
 
+##### Walkthough Damage
+
+​      For Reporting Damages that Occur during Walkthough process,Click on *Damage Report* button as shown in *Image 7* and follow [Onsite Installation Damage](#onsite-installation-damage) Procedures.
+
+![Walkthough Damage Button](Images/wdamage.png)
+*Image 7 : Walkthough Damage Button*
 
 ##### Damage Management
 
