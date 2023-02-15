@@ -616,7 +616,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 **Onsite Damage**
 
-​		Onsite Damage Report shows the details of Items that are damaged during the onsite receiving,Instalation.You can Report Onsite Damages on Onsite Receiving,Installation and Walkthrough as shown in the *Image 34-6*.
+​		Onsite Damage Report shows the details of Items that are damaged during the onsite receiving,Instalation.You can Report Onsite Damages on Onsite [Onsite Installation Damage](#onsite-installation-damage),[Room Damage](#room-damage) and [Walkthough Damage](#walkthough-damage) as shown in the *Image 34-6*.
 
 ![Onsite Damage Reporting Place](Images/OnsiteDamage.png)
 *Image 34-6 : Onsite Damage Reporting Place*
