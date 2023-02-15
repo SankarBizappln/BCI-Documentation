@@ -521,7 +521,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Picked
 
-​		For Unpicking Furniture a single room,click on *unpick furniture* button shown in *Image 32-4*.
+​		Picked Report contains the details items that are picked for a particular project.For Unpicking Furniture a single room,click on *unpick furniture* button shown in *Image 32-4*.
 
 ![Unpick Button in Picked Report](Images/unpickfur.png)
 *Image 32-4 : Unpick Button in Picked Report*
