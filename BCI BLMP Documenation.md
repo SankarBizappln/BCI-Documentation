@@ -966,6 +966,19 @@ We will discuss regarding the customer portal module in details under [Customer 
 
 ​    Once employee details are entered and clicked on submit. Application will add this Employee as user in the BLMP application. An email invite will be sent to email ID given in from while adding a new user.  If you try to edit a existing employee's email ID access to old email ID will be revoked and Invite will we sent to new email ID.
 
+###### Customer Portal
+
+**Client Dashboard**
+
+​    Customer Portal has access to view Reports such as *Inventory,Warehouse Inventory,Receiving Report,DamageRR Report,Damage Onsite Report* as shown in *Image 15*.
+
+![Client Dashboard Reports](Images/image.png)
+*Image 15 : Client Dashboard Reports*
+
+**Warehouse Module**
+
+​    Customer Portal have acess to [Floor Wise Shortage](#floor-wise-shortage) report and [Room Wise Shortage](#room-wise-shortage) Report.
+
 > ***Note:***
 > 
 > * *User email address should be unique.*
