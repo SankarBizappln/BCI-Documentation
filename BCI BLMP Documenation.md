@@ -847,6 +847,11 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      Rooms Fullfillment Report show the details Install product status of Items based on rooms.We can also check Installation Staus and Progress of Installation for Rooms.
 
+​      To Report Damage during Room Fulfilment Clcik on *Damage Report* Button as shown in *Image c*,and follow [Onsite Installation Damage](#onsite-installation-damage) Procedure.
+
+![Damage Report Button on Room Fullfillment](Images/roomdam.png)
+*Image c : Damage Report Button on Room Fullfillment*
+
 **Installation Items**
 
 ​      Installation Items report contains Details such as Required Qty,Picked Qty,Damaged Qty,On-Hand Qty,Qty to Install,Qty to Deleiver based on Items and rooms.
