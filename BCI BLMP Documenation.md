@@ -582,7 +582,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Exceptions
 
-**Damage Report**
+##### Damage Report
 
 ​		Damage report contains the details Items that are damaged in the ware house.i.e After Receiveing from the Debit Note.To add Damage Record click on *+Report Damage* button on Damage Report shown in the *Image 34-1*.
 
@@ -833,6 +833,17 @@ We can able to create a Bid in the application by providing some basic regarding
 ​      After Installation process,For walkthough rooms Click on *Walkthough* button shown in *Image 1*.A new form will get loaded will looks as shown in *Image 2*.Please Fill the *Walkthough Qty* filed as mentioned in *Image 3*.After entering wlakthough details fill all the madantory details such as name,signature and clcik on submit button.
 
 ​      Walkthough report shows the details of Rooms that are wlakthoughed.You can also view line items based walk though report on *Walkthough Line Items* reprot mentioned in *Image 3*.
+
+
+##### Damage Management
+
+**Damage Report**
+
+​      Damage report contains the details Damaged Item Quantites,Repair and Replaced Qty and the staus of the damage.
+
+**Resolved Damage**
+
+​      Resolved Damage report contains the details of damaged Items that are resolved.Refer [Damage Report](#damage-report)
 
 #### Settings
 
