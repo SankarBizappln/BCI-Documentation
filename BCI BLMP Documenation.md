@@ -30,7 +30,7 @@
    7. [Room Wise Shortage](#room-wise-shortage)
    8. [Inventory](#inventory)
 6. [Installation](#installation)
-   1. [On-Site Receiving](#on-site-receiving)
+   1. [OnSite Receiving](#onsite-receiving)
    2. [Installation](#installation)
    3. [Walkthough](#walkthough)
    4. [Damage Management](#damage-management)
@@ -766,7 +766,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 #### Installation
 
-##### Onsite Receiving
+##### OnSite Receiving
 
 **Onsite Receiving**
 
