@@ -817,7 +817,11 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​      You can add Delivery/Install Qty in Installation Product sub-form as shown in *Image h*.There are tow check box present in onsite installtion master form as shown in *Image i*.If Deleiver All is checked *Deleivery Qty* Filed will automatically populated based on Qty Deliver Field.If Install All filed is checked *Install Qty* will be automatically populated based on *Qty to Install*.
 
-![
+![Delivery/Install Qty](Images/qty.png)
+*Image h : Delivery/Install Qty*
+
+![Delivery/Install check box](Images/check.png)
+*Image i : Delivery/Install Check box*
 
 
 **Onsite Installation**
