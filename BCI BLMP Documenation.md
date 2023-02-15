@@ -794,10 +794,10 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​       Excess Items Received Report contains the details of items that are received excess during process of on-site Receiving.To handle a Excess Receive Item click on the *+Use Excess* button as shown in *Image e*.After click on the button a new form will get loaded which will looks as shown in *Image f*.Fill all the necessary details such as type of process etc.Project Name will pre-populated.After entering all the details click on submit button.
 
-![Edit Excess]
+![Edit Excess](Images/excessb.png)
 *Image e: Edit Button in Excess Report*
 
-![Handle Excess form]
+![Handle Excess form](Images/excessh.png)
 *Image f: Handle excess items Form*
 
 ###### Installation
