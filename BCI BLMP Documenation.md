@@ -489,8 +489,8 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		After entering all the details in Bulk Pick Form,You have to Tick the check box as shown in *Image 31-2*,So that all enterd details will get reflected in [Picked](#picked).
 
-![Verification Check Box](Images/PickVal.png)
-*Image 31-2 : Vaerification Check box*
+![Verification Check Box](Images/PicVal.png)
+*Image 31-2 : Verification Check box*
 
 ​		Once the picking form is field with needed *Pick Qty*, the form can be submitted which in turn reduces the inventory level based on given *Pick Qty* in respective furniture and warehouse accordingly to make to no item is double picked (i.e., Picking same item more than once) during the picking process. Now this pick-list will be available for pulling in [Pulling](#pulling) process.  
 
