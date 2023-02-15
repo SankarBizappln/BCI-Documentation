@@ -977,7 +977,7 @@ We will discuss regarding the customer portal module in details under [Customer 
 
 **Warehouse Module**
 
-​    Customer Portal have acess to [Floor Wise Shortage](#floor-wise-shortage) report and [Room Wise Shortage](#room-wise-shortage) Report.
+​    Customer Portal have access to [Floor Wise Shortage](#floor-wise-shortage) report and [Room Wise Shortage](#room-wise-shortage) Report.
 
 > ***Note:***
 > 
