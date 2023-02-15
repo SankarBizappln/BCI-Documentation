@@ -482,7 +482,15 @@ We can able to create a Bid in the application by providing some basic regarding
 ![PickingForm](Images/PickingForm.png)
 *Image 32: Picking form for rooms selected in Image 31.*
 
-​		In picking process we have also given two other options, Option to mark a pick-list as *Handover These Item While On-Site Receiving* and option pick replacement item from inventory when replacement damage is reported at On-Site process. We discuss the Handover process in details under [Handover](#handover-process) section and We discuss the on-site replacement damage further in [Damage Management](#damage-management) section.
+​		In picking process we have also given four options, Option to mark a pick-list as *Handover These Item While On-Site Receiving,Damage Replacement,Missing Items,Pick ALl* as shown in *Image 31-1*.Please select any one of these as per your preference.when *Pick All* check box is ticked,It will pick all remaining Qty required for that project.
+
+![Check Box in Bulk Pick Form]
+*Image 32-1 :Check Box in Bulk Pick Form *
+
+​		After entering all the details in Bulk Pick Form,You have to Tick the check box as shown in *Image 31-2*,So that all enterd details will get reflected in [Picked Report](#picked).
+
+![Verification Check Box]
+*Image 31-2 : Vaerification Check box*
 
 ​		Once the picking form is field with needed *Pick Qty*, the form can be submitted which in turn reduces the inventory level based on given *Pick Qty* in respective furniture and warehouse accordingly to make to no item is double picked (i.e., Picking same item more than once) during the picking process. Now this pick-list will be available for pulling in [Pulling](#pulling) process.  
 
