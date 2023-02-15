@@ -487,7 +487,7 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Check Box in Bulk Pick Form]
 *Image 32-1 :Check Box in Bulk Pick Form *
 
-​		After entering all the details in Bulk Pick Form,You have to Tick the check box as shown in *Image 31-2*,So that all enterd details will get reflected in [Picked Report](#picked).
+​		After entering all the details in Bulk Pick Form,You have to Tick the check box as shown in *Image 31-2*,So that all enterd details will get reflected in [Picked](#picked).
 
 ![Verification Check Box]
 *Image 31-2 : Vaerification Check box*
