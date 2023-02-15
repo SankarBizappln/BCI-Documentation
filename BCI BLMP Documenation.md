@@ -526,6 +526,11 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Unpick Button in Picked Report](Images/unpickfur.png)
 *Image 32-4 : Unpick Button in Picked Report*
 
+​		For Unpicking all the items in a particular record, Click on Unpick button mentioned in the below *Image a*.After click on the button all the items will get unpicked.
+
+![Unpick]
+*Image a : Unpick Button*
+
 ​		After Clicking on *unpick furniture* , a new dialogue box will appear,as shown in *Image 32-5*,Fill all the details such as Room Number,Select furniture and unpicked Qty.After entering all the details click on Submit button.After that these added changes will get reflected into the project.
 
 ![Unpick Furniture Report](Images/Unpickfurreport.png)
@@ -564,6 +569,16 @@ We can able to create a Bid in the application by providing some basic regarding
 *Table 4: Furnitures sub-form field description in picking process.*
 
 ​		In the pulling process also it is possible to mark a picking as *Handover These Item While On-Site Receiving* though this option was not checked during the picking process. Pulling form will also have fields to upload images and files, which will be useful to attach image furniture they pulled from warehouse and any documents related to pulling process in the pull-sheet it self if needed.
+
+​		In Bulk Pick there are three check Boxes available that are *Hand Over These Items while On-site Receiving,Damage Replacement,Pull All*(as shown in *Image-b)*,Click the required check box.Pull All Check box will automatically fill *Qty Pulled* based on Total Qty Required.
+
+![Check Box for Pull]
+*Image b : Check Box for Pull*
+
+​		After entering all the details for pulling,check the tick box shown in the *Image c*,You have click on Check box befor submitting,then only you changes will get submitted.
+
+![Validation in Pull]
+*Image c : Validation in Pull*
 
 ##### Exceptions
 
@@ -746,6 +761,51 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Inventory Adjustment Form](Images/InventoryAdjustmentForm.png)
 
 *Image 34: Inventory Adjustment form.*
+
+
+#### Installation
+
+##### Onsite Receiving
+
+**Onsite Receiving**
+
+​        Onsite Receiveing Report contains the details that are [Pulled](#pulled) and Waiting for on-site Receiveing.To receive all Items that are pulled, click on edit option for the required record(*as shown in Image a*).After click on Edit a new Form will get loaded which will looks as shown in *Image b*.You can three check boxes present(which will looks as shown in *Image c*) in form they are *Handover These Item While On-Site Receiving,Damage Replacement,Receive All*.Click the necessary option.*Note* if Receive All Check box is Ticked,It will fill Receieved Qty for all the Items based on *Tota Picked Qty*.
+
+![Edit for On-site Receive]
+*Image a: Edit for On-site Receive*
+
+![ Form for On-Site Receive]
+*Image b : Form for On-Site Receive*
+
+![ Check Box on Report]
+*Image c :Check Box on Report*
+
+​        After entering all details Check all the checkbox mentioned in *Image d*.You can only Submit the record only after ticking below two check boxes.
+
+![Validation Check Box]
+*Image d:Validation Check Box*
+
+**Onsite Received**
+
+​       Onsite Received report contains the details report that are Received from [Onsite Receiving](#onsite-receiving)
+
+**Excess Item Received**
+
+​       Excess Items Received Report contains the details of items that are received excess during process of on-site Receiving.To handle a Excess Receive Item click on the *+Use Excess* button as shown in *Image e*.After click on the button a new form will get loaded which will looks as shown in *Image f*.Fill all the necessary details such as type of process etc.Project Name will pre-populated.After entering all the details click on submit button.
+
+![Edit Excess]
+*Image e: Edit Button in Excess Report*
+
+![Handle Excess form]
+*Image f: Handle excess items Form*
+
+###### Installation
+
+**Onsite Intallation Master**
+
+​      Onsite Intallation Master Report contains the details of items that Deleivered/Install for a particluar room room.Once after all Items are Received on On-site.You can add Delivery/Installation details in Onsite Installation Master report.Click on Edit option for the record you want to add Delivery/Install Details.
+
+​      You can add Delivery/Install Qty in Installation Product sub-form as shown in *Image h*.There are tow check box present in onsite installtion master form as shown in *Image i*.If Deleiver All is checked *Deleivery Qty* Filed will automatically populated based on Qty Deliver Field.If Install All filed is checked *Install Qty* will be automatically populated based on *Qty to Install*.
 
 #### Settings
 
