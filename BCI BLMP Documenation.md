@@ -788,7 +788,7 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ##### Onsite Damage
 
-​        For Report Damaging happend during onsite receive,click on *Damage Report* button shown in *Image - e*.After clicking Damage report button, a new form will get loaded as shown in *Image f*,Fill all the necessary details for Damage Details and click on submit button.You can view ![Damage Management](#damage-management)
+​        For Report Damaging happend during onsite receive,click on *Damage Report* button shown in *Image - e*.After clicking Damage report button, a new form will get loaded as shown in *Image f*,Fill all the necessary details for Damage Details and click on submit button.You can view [Damage Management](#damage-management)
 
 **Onsite Received**
 
