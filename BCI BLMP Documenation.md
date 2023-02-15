@@ -370,11 +370,11 @@ We can able to create a Bid in the application by providing some basic regarding
 | Column Name      | Data Type | Description                                                  | Mandatory | Unique |
 | ---------------- | --------- | ------------------------------------------------------------ | --------- | ------ |
 | Project Code     | String    | Unique project ID assigned to a project you are currently working on. <br />**Note:** Each room row in the sheet should have project code value.  | False      | False  |
-| Tower            | String    | Tower details where the room is located.                     | Fasle      | False |      
-| Floor            | String    | Floor Number for the room.                                   | Fasle      | False | 
-| Room Type        | String    | Room type details for the room                               | Fasle      | False |  
-| Room No          | String    | Room No details for the room.                                | Fasle      | True  |
-*Table 3: Room type upload data column description.*
+| Tower            | String    | Tower details where the room is located.                     | False      | False |      
+| Floor            | String    | Floor Number for the room.                                   | False      | False | 
+| Room Type        | String    | Room type details for the room                               | False      | False |  
+| Room No          | String    | Room No details for the room.                                | False      | True  |
+*Table 4: Room type upload data column description.*
 
 
 
