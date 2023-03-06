@@ -322,6 +322,8 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		For Unpicking rooms for Mulitple records,Select the records that needs to be unpicked,After selecting required records click on *Unpick Room* button as mentioned in the *image 21-5* below.After clicking on *Unpick Room* button.All Furniture in the room will be unpicked for the selected records.
 
+​		There are some conditions for unpicking the room.If there is any damage reported for that room(or) all furnitures are received on Onsite,you can't able to execute unpick action for that room.You can only unpick for a room if there is no damaged reported and not all furnitures are received on onsite.
+
 ![Unpick Room Button ](Images/UnpickRoom.png)
  *Image 21-5: Unpick Room Button*
       
@@ -538,10 +540,17 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ​		Picked Report contains the details items that are picked for a particular project.For Unpicking Furniture a single room,click on *unpick furniture* button shown in *Image 32-4*.
 
+​		This Unpick Button will be disabled once the Status changed to *Onsite Receive Completed (All Items that are picked are received on onsite)* as shown in *Image 32-a*
+
 ![Unpick Button in Picked Report](Images/unpickfur.png)
 *Image 32-4 : Unpick Button in Picked Report*
 
 ​		After Clicking on *unpick furniture* , a new dialogue box will appear,as shown in *Image 32-5*,Fill all the details such as Room Number,Select furniture and unpicked Qty.After entering all the details click on Submit button.After that these added changes will get reflected into the project.
+
+​		This Unpick Furniture Button will be disabled once the Status changed to *Onsite Receive Completed (All Items that are picked are received on onsite)* as shown in *Image 32-a*
+
+![Unpick Disable Button](Images/unpickExp.png)
+* Image 32-a Unpick Disable Button*
 
 ![Unpick Furniture Report](Images/Unpickfurreport.png)
 *Image 32-5 : Unpick Furniture Report*
