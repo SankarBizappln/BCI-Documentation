@@ -292,6 +292,11 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Single & Bulk COD Report ](Images/cod.png)
   *Image 21-r:Single & Bulk COD Report*
 
+​     To Export a particular record details to Google Sheet, click on the Export Excel button as shown in *Image 21-s*.After clicking on that button, a new sheet will be created in Gooogle Sheets on *bcimbsdrive@gmail.com* Account.All the details of the record will get saved in the google sheet. Name of the google sheet will be *Project Name - Room Type*. For ex- if Project Name is Johnny Sanchez and Room Type is REST,then name of sheet will be *Johnny Sanchez  REST*.
+
+![Room type Export](Images/AllRoomTypeExp.png)
+*Image 21-s : Room Type Export*
+
 **Rooms**
 
 ​		Rooms Report contains the details of Rooms that are present in Project.For Adding each room manually click on *+Add Room* Button on the report as mentioned in the *image 21-1* below.
@@ -436,6 +441,11 @@ We can able to create a Bid in the application by providing some basic regarding
 
 *Image 26: Receive DN Page.*
 
+​		To Export the details of a particular Delivery Note to google sheets,click on the Export excel button shown in *Image 27-1*.After clicking on the Export button details of the record will get updated in the google Sheets Name called *Delivery Note* on *bcimbsdrive@gmail.com* Account.
+
+![Deliver Note Export](Images/DeliveryNoteExp.png)
+ *Image 27-1: Delivery Note Export Button*
+
 ![ReceiveDNform](Images/DNedit.png)
 
 *Image 27: Receive DN form.*
@@ -451,6 +461,11 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ![Create DN](Images/edn.png)
 *Image 27-2 : Create DN - Expected Qty*
+
+​		To Export the details of a particular Receive DN Report to google sheets,click on the Export excel button shown in *Image 27-1*.After clicking on the Export button details of the record will get updated in the google Sheets Name called *Receive DN Report* on *bcimbsdrive@gmail.com* Account.
+
+![Receive DN Report Export](Images/ReceiveDNExp.png)
+ *Image 27-1: Receive DN Report Export Button*
 
 
 **Receive DN Line Items**
@@ -536,6 +551,12 @@ We can able to create a Bid in the application by providing some basic regarding
 ![Unpick](Images/unpick.png)
 *Image a : Unpick Button*
 
+​		To Export the details of a particular Picking Complete report to google sheets,click on the Export excel button shown in *Image 32-a*.After clicking on the Export button details of the record will get updated in the google Sheets Name called *Picking Report* on *bcimbsdrive@gmail.com* Account.
+
+![Picking Complete report Export](Images/PickingCompleteExp.png)
+ *Image 32-a: Picking Complete report Export Button*
+
+
 
 ​		You can also view unpicked furniture report in Unpick furniture as shown in *Image 32-6*.
 
@@ -580,6 +601,17 @@ We can able to create a Bid in the application by providing some basic regarding
 
 ![Validation in Pull](Images/PullCheck.png)
 *Image c : Validation in Pull*
+
+​		To Export the details of a particular Pulling Inprogress Report to google sheets,click on the Export excel button shown in *Image d*.After clicking on the Export button details of the record will get updated in the google Sheets Name called *Pulling Inprogress* on *bcimbsdrive@gmail.com* Account.
+
+![Pulling Inprogress Export](Images/PullExp.png)
+ *Image d: Pulling Inprogress Export Button*
+ 
+ ​		To Export the details of a particular Pulling Complete Report to google sheets,click on the Export excel button shown in *Image e*.After clicking on the Export button details of the record will get updated in the google Sheets Name called *Pulling Complete * on *bcimbsdrive@gmail.com* Account.
+
+![Pulling Complete Export](Images/PullComExp.png)
+ *Image e: Pulling Complete Export Button*
+
 
 ##### Exceptions
 
@@ -846,6 +878,13 @@ We can able to create a Bid in the application by providing some basic regarding
 **Rooms Fullfillment**
 
 ​      Rooms Fullfillment Report show the details Install product status of Items based on rooms.We can also check Installation Staus and Progress of Installation for Rooms.
+
+​		To Export the details of a particular Onsite Inventory Report to google sheets,click on the Export excel button shown in *Image a-1*.After clicking on the Export button details of the record will get updated in the google Sheets Name called *Onsite Inventory Report* on *bcimbsdrive@gmail.com* Account.
+
+![Onsite Inventory Report Export](Images/OnInvExp.png)
+ *Image a-1: Onsite Inventory Report Button*
+
+
 
 #### Room Damage
 
