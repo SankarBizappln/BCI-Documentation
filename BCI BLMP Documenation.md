@@ -1044,6 +1044,7 @@ We will discuss regarding the customer portal module in details under [Customer 
    *Image 16 : PDF File for Creating Google Credentials*
 
 **Adding Creditials Details in Project**
+   
    After creating Google credentials using the above steps.Navigate to Google Sheet Integration Tab -> All Google Sheet Tokens Project List.Then select and edit the project you want to add new google account for saving excel files.Then add the newly created client id,client secret and refresh token in the report.After submitting the record the export excell data will stored in the required drive account you selected.
-   (Images/Google1.png)
-   (Images/Google2.png)
+  ![Google Sheet Tokens Project List](Images/Google1.png)
+  ![Google Sheet Tokens Project Edit View](Images/Google2.png)
