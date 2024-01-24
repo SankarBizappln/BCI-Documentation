@@ -1039,5 +1039,5 @@ We will discuss regarding the customer portal module in details under [Customer 
 **Google Sheet Token Generation Flow**
    If you want to to add new drive account for any particular project.Open Google Sheet Token Generation Flow in Google Sheet integration Section.In that there will one pdf file present.Follow that PDF file and generate client credentials and refresh token for the google account you want.
 
-   ![PDF File for Creating Google Credentials](Images/GoogleIntegrationFlow.png)
+   ![PDF File for Creating Google Credentials](Images/Google.png)
    *Image 16 : PDF File for Creating Google Credentials*
