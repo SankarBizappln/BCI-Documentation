@@ -1033,3 +1033,11 @@ We will discuss regarding the customer portal module in details under [Customer 
 > * *Please check for invite mail in Spam and Trash mail too.*
 > * Invalid email ID.
 > * Adding the user may fail when maximum number purchased user license have reached.
+
+###### Google Sheet Integration
+
+**Google Sheet Token Generation Flow**
+   If you want to to add new drive account for any particular project.Open Google Sheet Token Generation Flow in Google Sheet integration Section.In that there will one pdf file present.Follow that PDF file and generate client credentials and refresh token for the google account you want.
+
+   ![PDF File for Creating Google Credentials](Images/GoogleIntegrationFlow.png)
+   *Image 16 : PDF File for Creating Google Credentials*
