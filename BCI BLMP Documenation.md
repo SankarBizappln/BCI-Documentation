@@ -1019,13 +1019,21 @@ We will discuss regarding the customer portal module in details under [Customer 
 
 **Add Contacts to Customer Portal**
 
-   To Add an user to customer portal.Navigate to System Setting -> Contacts as shown in *Image P-1*.Then add the user and then submit that form.After adding that user in contact report.Select the three dot for the contact you want to enable portal access and then click on Grant Customer Portal Access Button as shown in *Image P-2*
-
+   To Add an user to customer portal.Navigate to System Setting -> Contacts as shown in *Image P-1*.Then add the user and then submit that form.After adding that user in contact report.Please a project for that contact. Go to Project->Select the Project you want to assign to that contact -> Edit that Project and this contact to that Project *Image Contact-Project*.You can able to view the Report in Customer Portal onyl after assinging a Project to that contact.If didn't assign any Project for that contact Customer Portal will be empty for that User
+   
    ![Add Contact to Customer Portal](Images/portal_add_contact.png)
    *Image P-1 : Add Contacts*
 
+   ![ Add Project for Contact](Images/portal_project.png)
+   *Image Contact-Portal: Add Project for Contact*
+
+    After adding that user in contact report.Select the three dot for the contact you want to enable portal access and then click on Grant Customer Portal Access Button as shown in *Image P-2*
+
    ![ Enable Portal Access](Images/portal_grant_access.png)
    *Image P-2 : Enable Portal Access*
+
+   
+   After clicking on Grant Portal Access Button, an invitation will be send to that email for creating password for that user.Aslo Customer Portal URL will aslo be shared in that email.After setting up the password.
 
 **Client Dashboard**
 
