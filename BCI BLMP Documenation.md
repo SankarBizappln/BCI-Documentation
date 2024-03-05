@@ -1044,11 +1044,10 @@ We will discuss regarding the customer portal module in details under [Customer 
    *Image P-4 : Portal Report view*
 
    **Remove User From Customer Portal**
+         To remove an User from customer portal. Navigate to System Setting -> Contacts -> Select the contacts you want and click on Revoke Cusotmer Portal Access.By click this that user will be removed from customer portal *Image P-5*
 
-      To remove an User from customer portal. Navigate to System Setting -> Contacts -> Select the contacts you want and click on Revoke Cusotmer Portal Access.By click this that user will be removed from customer portal *Image P-5*
-
-      ![ Revoke Portal Access ](Images/portal_revoke.png)
-      *Image P-5 : Revoke Portal Access*
+   ![ Revoke Portal Access ](Images/portal_revoke.png)
+   *Image P-5 : Revoke Portal Access*
 
 **Client Dashboard**
 
