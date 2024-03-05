@@ -1017,6 +1017,16 @@ We will discuss regarding the customer portal module in details under [Customer 
 
 ###### Customer Portal
 
+**Add Contacts to Customer Portal**
+
+   To Add an user to customer portal.Navigate to System Setting -> Contacts as shown in *Image P-1*.Then add the user and then submit that form.After adding that user in contact report.Select the three dot for the contact you want to enable portal access and then click on Grant Customer Portal Access Button as shown in *Image P-2*
+
+   ![Add Contact to Customer Portal](Images/portal_add_contact.png)
+   *Image P-1 : Add Contacts*
+
+   ![ Enable Portal Access](Images/portal_grant_access.png)
+   *Image P-2 : Enable Portal Access*
+
 **Client Dashboard**
 
 ​    Customer Portal has access to view Reports such as *Inventory,Warehouse Inventory,Receiving Report,DamageRR Report,Damage Onsite Report* as shown in *Image 15*.
